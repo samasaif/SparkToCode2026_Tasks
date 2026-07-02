@@ -138,6 +138,29 @@ internal class Program
             Console.WriteLine("Ticket Price = 3.000 OMR");
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Task 8 - Restaurant Bill with Membership Discount
+        Console.Write("please enter your total bill amount: ");
+        double billAmount = double.Parse(Console.ReadLine());
+        
+        Console.Write("are you a loyalty member? (yes/no): ");
+        string loyal = Console.ReadLine();
+
+        bool isMember = loyal.ToLower() == "yes";
+
+        double discount = 0 ;
+        if (isMember && billAmount > 20)
+        { 
+            discount = billAmount * 0.15;
+        } 
+        double amount = billAmount - discount;
+        
+        Console.WriteLine("original bill: " + billAmount);
+        Console.WriteLine("discount amount: " + discount);
+        Console.WriteLine("final amount: " + amount);
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        
     }
     
 }
