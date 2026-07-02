@@ -29,5 +29,21 @@ internal class Program
         Console.Write("\n");
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        // Task 3 - Even or Odd Checker
+        Console.WriteLine("enter a whole number: ");
+        int wholeNumber = Convert.ToInt32(Console.ReadLine());
+        
+        if  (wholeNumber % 2 == 0)
+        { 
+            Console.WriteLine("The number is EVEN");
+        }
+        else
+        {
+            Console.WriteLine("The number is ODD");
+        }
+        Console.Write("\n");
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        
     }
 }
