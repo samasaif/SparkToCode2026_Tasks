@@ -202,6 +202,57 @@ internal class Program
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        // Task 10 - Mini Calculator
+        Console.WriteLine("enter first number: ");
+        float firstNumber = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("enter second number: ");
+        float secondNumber = float.Parse(Console.ReadLine());
+        
+        Console.WriteLine("enter an operator character (+, -, *, /, or %): ");
+        char operatorChar = char.Parse(Console.ReadLine());
+
+        switch (operatorChar)
+        {
+            case '+':
+                Console.WriteLine("Result: " + (firstNumber + secondNumber));
+                break;
+            
+            case '-':
+                Console.WriteLine("Result: " + (firstNumber - secondNumber));
+                break;
+            
+            case '*':
+                Console.WriteLine("Result: " + (firstNumber * secondNumber));
+                break;
+            
+            case '/':
+                if (secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                }
+                else
+                {
+                    Console.WriteLine("Result: " + (firstNumber / secondNumber));
+                }
+                break;
+            
+            case '%':
+                if (secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                }
+                else
+                {
+                    Console.WriteLine("Result: " + (firstNumber / secondNumber));
+                }
+                break;
+            
+            default:
+                Console.WriteLine("Invalid operator");
+                break;
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
     
 }
