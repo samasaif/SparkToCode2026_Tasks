@@ -118,7 +118,26 @@ internal class Program
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
-        
+        // Task 7 - Movie Ticket Pricing
+        Console.Write("please enter your age: ");
+        int ageN = Convert.ToInt32(Console.ReadLine());
+
+        if (ageN >= 0 && ageN <= 12)
+        {
+            Console.WriteLine("Category: Children");
+            Console.WriteLine("Ticket Price = 2.000 OMR");
+        }
+        else if (ageN >= 13 && ageN <= 59)
+        {
+            Console.WriteLine("Category: Adults");
+            Console.WriteLine("Ticket Price = 5.000 OMR");
+        }
+        else
+        {
+            Console.WriteLine("Category: Seniors");
+            Console.WriteLine("Ticket Price = 3.000 OMR");
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
     
 }
