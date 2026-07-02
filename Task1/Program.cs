@@ -253,6 +253,38 @@ internal class Program
                 break;
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Task 11 - Loan Eligibility System
+        
+        Console.WriteLine("please enter your age: ");
+        int ageN1 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("please enter your monthly income: ");
+        double monthlyIncome = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine("have an existing loan (yes/no): ");
+        string loan = Console.ReadLine();
+
+        bool haveLoan = loan.ToLower() == "yes";
+
+        if (ageN1 >= 21 && ageN1 <= 60 && monthlyIncome >= 400 && !haveLoan)
+        {
+            Console.WriteLine("Eligible to get a loan");
+        }
+        else if (monthlyIncome < 400)
+        {
+            Console.WriteLine("NOT Eligible to get a loan: LOW INCOME");
+        }
+        else if (haveLoan)
+        {
+            Console.WriteLine("NOT Eligible to get a loan: you already have a loan");
+        }
+        else if (ageN1 < 21 && ageN1 > 60)
+        {
+            Console.WriteLine("NOT Eligible to get a loan: age out of range");
+
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
     
 }
