@@ -44,6 +44,25 @@ internal class Program
         Console.Write("\n");
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
+        // Task 4 - Voting Eligibility
+        Console.WriteLine("enter your age: ");
+        int ageNum = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("do you hold a valid national ID?(yes/no): ");
+        string nationalID = Console.ReadLine();
+        
+        bool hasID = nationalID == "yes";
+
+        if (hasID && ageNum >= 18)
+        {
+            Console.WriteLine("the person is eligible to vote");
+        }
+        else
+        {
+            Console.WriteLine("the person is NOT eligible to vote");
+        }
+        Console.Write("\n");
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
     }
 }
