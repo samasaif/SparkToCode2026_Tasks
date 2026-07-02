@@ -13,5 +13,21 @@ internal class Program
         Console.Write("Name: " + name + ", Age: " + age + ", Height: " + heightInMeters + ", Student: " + isStudent);
         Console.Write("\n");
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Task 2 - Rectangle Calculator
+        Console.WriteLine("enter length: ");
+        float length = float.Parse(Console.ReadLine());
+        
+        Console.WriteLine("enter width: ");
+        float width = float.Parse(Console.ReadLine());
+        
+        float area = length * width;
+        float perimeter = 2 * (length + width);
+        
+        Console.WriteLine("The area is: " + area);
+        Console.WriteLine("The perimeter is: " + perimeter);
+        Console.Write("\n");
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     }
 }
