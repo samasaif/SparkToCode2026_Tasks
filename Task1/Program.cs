@@ -64,5 +64,38 @@ internal class Program
         Console.Write("\n");
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
+        // Task 5 - Grade Letter Lookup
+        Console.WriteLine("enter a single character representing your grade ('A', 'B', 'C', 'D', or 'F'):");
+        char grade = Convert.ToChar(Console.ReadLine().ToUpper());
+
+        switch (grade)
+        {
+            case 'A':
+                Console.WriteLine("Excellent");
+                break;
+
+
+            case 'B':
+                Console.WriteLine("Very Good");
+                break;
+
+
+            case 'C':
+                Console.WriteLine("Good");
+                break;
+
+            case 'D':
+                Console.WriteLine("Pass");
+                break;
+            
+            case 'F':
+                Console.WriteLine("Fail");
+                break;
+            
+            default:
+                Console.WriteLine("please choose a correct option");
+                break;
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
