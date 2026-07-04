@@ -5,9 +5,6 @@ class Program
     static void Main(string[] args)
     {
        // Task 1 - Countdown Timer
-       /*
-         
-        
        Console.WriteLine("please enter a starting number: ");
        int number = Convert.ToInt32(Console.ReadLine());
 
@@ -17,11 +14,11 @@ class Program
        }
        Console.WriteLine("Liftoff!");  
        Console.WriteLine("\n");
-       */
+       
        ////////////////////////////////////////////////////////////////////////////////////////////////
        
        // Task 2 - Sum of Numbers 1 to N
-       /*
+       
        Console.Write("please enter a positive whole number: ");
        int positiveNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -31,22 +28,18 @@ class Program
            total += i;
        }
        Console.WriteLine($"Your total is: {total}");
-        */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 3 - Multiplication Table
-       /*
        Console.Write("please enter a number: ");
        int num = Convert.ToInt32(Console.ReadLine());
        for (int i = 0; i <= 10; i++)
        {
            Console.WriteLine(num + " x " + i + " = " + (num * i));
        }
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
        
        // Task 4 - Password Retry
-       /*
        string password = "Spark2026";
        string password2 = "";
        while (password2 != password) {
@@ -59,11 +52,9 @@ class Program
            else {
                Console.WriteLine("Incorrect password, try again");
            }
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 5 - Number Guessing Game
-       /*
        int secretNum = 42;
        int attempts = 0;
        int guessedNumber;
@@ -81,11 +72,9 @@ class Program
        } while (guessedNumber != secretNum);
        Console.WriteLine("correct");
        Console.WriteLine("attempts: " + attempts);
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 6 - Safe Division Calculator
-       /*
        try
        {
            Console.Write("enter 1st number: ");
@@ -109,11 +98,9 @@ class Program
        {
            Console.WriteLine("Invalid number entered.");
        }
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 7 - Repeating Menu with Exit Option
-       /*
        bool exit = false;
 
        while (!exit)
@@ -152,11 +139,9 @@ class Program
                Console.WriteLine("please enter a valid number.");
            }
        }
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 8 - Sum of Even Numbers Only
-       /*
        Console.Write("please enter a positive whole number: ");
        int n = Convert.ToInt32(Console.ReadLine());
        int sum = 0;
@@ -166,7 +151,6 @@ class Program
            }
        }
        Console.WriteLine("sum of even numbers = " + sum);
-       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 9 - Validated Positive Number Input
