@@ -15,6 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
-      <workItem from="1783023300189" duration="7252000" />
+      <workItem from="1783023300189" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -292,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783173412736</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Task 9 - p2">
+      <option name="closed" value="true" />
+      <created>1783173697405</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1783173697406</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +342,8 @@
     <MESSAGE value="task 6 - p2" />
     <MESSAGE value="task 7 - p2" />
     <MESSAGE value="Task 8 - p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 8 - p2" />
+    <MESSAGE value="Task 9 - p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 9 - p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
