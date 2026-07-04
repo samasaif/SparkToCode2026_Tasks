@@ -165,7 +165,7 @@ class Program
                 }
             }
 
-            Console.WriteLine("sum of even numbers = " + sum);
+            Console.WriteLine("sum of even numbers = " + summ);
             ////////////////////////////////////////////////////////////////////////////////////////////////
 
             // Task 9 - Validated Positive Number Input
