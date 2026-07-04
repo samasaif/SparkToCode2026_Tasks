@@ -61,7 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Project.Task1.executor": "Run",
-    ".NET Project.Task2.executor": "Debug",
+    ".NET Project.Task2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -130,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
-      <workItem from="1783023300189" duration="6613000" />
+      <workItem from="1783023300189" duration="6939000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783172219258</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="task 6 - p2">
+      <option name="closed" value="true" />
+      <created>1783172863941</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1783172863941</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +314,8 @@
     <MESSAGE value="task 3 - part 2" />
     <MESSAGE value="task 4 - part 2" />
     <MESSAGE value="task 5 - part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 5 - part 2" />
+    <MESSAGE value="task 6 - p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 6 - p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

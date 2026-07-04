@@ -85,6 +85,7 @@ class Program
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 6 - Safe Division Calculator
+       /*
        try
        {
            Console.Write("enter 1st number: ");
@@ -108,10 +109,49 @@ class Program
        {
            Console.WriteLine("Invalid number entered.");
        }
+       */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Task 7 - Repeating Menu with Exit Option
-       
+       bool exit = false;
+
+       while (!exit)
+       {
+           Console.WriteLine("1. Say Hello");
+           Console.WriteLine("2. Show Current Time-of-day Greeting");
+           Console.WriteLine("3. Exit");
+           Console.Write("Choose an option: ");
+
+           try
+           {
+               int option = Convert.ToInt32(Console.ReadLine());
+
+               switch (option)
+               {
+                   case 1:
+                       Console.WriteLine("hello!");
+                       break;
+
+                   case 2:
+                       Console.WriteLine("have a wonderful day!");
+                       break;
+
+                   case 3:
+                       exit = true;
+                       Console.WriteLine("bye!");
+                       break;
+
+                   default:
+                       Console.WriteLine("invalid choice.");
+                       break;
+               }
+           }
+           catch (FormatException)
+           {
+               Console.WriteLine("please enter a valid number.");
+           }
+       }
+    
     }
     
 }
