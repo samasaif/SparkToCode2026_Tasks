@@ -36,6 +36,13 @@ class Program
 
        // Task 3 - Multiplication Table
        
+       Console.Write("please enter a number: ");
+       int num = Convert.ToInt32(Console.ReadLine());
+       for (int i = 0; i <= 10; i++)
+       {
+           Console.WriteLine(num + " x " + i + " = " + (num * i));
+       }
+       ////////////////////////////////////////////////////////////////////////////////////////////////
     }
     
 }
