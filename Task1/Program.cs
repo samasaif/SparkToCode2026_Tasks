@@ -160,7 +160,7 @@ internal class Program
         Console.WriteLine("final amount: " + amount);
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
-        Console.WriteLine("\n");
+    Console.WriteLine("\n");
         // Task 9 - Day Name Finder
         
         Console.WriteLine("enter a number from 1 to 7 representing a day of the week: ");
