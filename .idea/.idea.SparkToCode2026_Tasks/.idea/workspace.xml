@@ -14,11 +14,16 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -56,7 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Project.Task1.executor": "Run",
-    ".NET Project.Task2.executor": "Run",
+    ".NET Project.Task2.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -125,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
-      <workItem from="1783023300189" duration="4078000" />
+      <workItem from="1783023300189" duration="6613000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -223,7 +228,47 @@
       <option name="project" value="LOCAL" />
       <updated>1783026100942</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task 1 from part 2 is implemented">
+      <option name="closed" value="true" />
+      <created>1783170302899</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1783170302899</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task 2 - part 2">
+      <option name="closed" value="true" />
+      <created>1783171160198</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1783171160198</updated>
+    </task>
+    <task id="LOCAL-00015" summary="task 3 - part 2">
+      <option name="closed" value="true" />
+      <created>1783171357924</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1783171357924</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task 4 - part 2">
+      <option name="closed" value="true" />
+      <created>1783171743532</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1783171743532</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task 5 - part 2">
+      <option name="closed" value="true" />
+      <created>1783172219258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1783172219258</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +301,12 @@
     <MESSAGE value="Task 10" />
     <MESSAGE value="task 11" />
     <MESSAGE value="add project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project files" />
+    <MESSAGE value="Task 1 from part 2 is implemented" />
+    <MESSAGE value="task 2 - part 2" />
+    <MESSAGE value="task 3 - part 2" />
+    <MESSAGE value="task 4 - part 2" />
+    <MESSAGE value="task 5 - part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 5 - part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -84,6 +84,34 @@ class Program
        */
        ////////////////////////////////////////////////////////////////////////////////////////////////
 
+       // Task 6 - Safe Division Calculator
+       try
+       {
+           Console.Write("enter 1st number: ");
+           double num1 = Convert.ToDouble(Console.ReadLine());
+
+           Console.Write("enter 2nd number: ");
+           double num2 = Convert.ToDouble(Console.ReadLine());
+
+           if (num2 == 0) { 
+               Console.WriteLine("cannot divide by zero.");
+           } else {
+               double result = num1 / num2;
+               Console.WriteLine("Result = " + result);
+           }
+       }
+       catch (DivideByZeroException)
+       {
+           Console.WriteLine("cannot divide by zero.");
+       }
+       catch (FormatException)
+       {
+           Console.WriteLine("Invalid number entered.");
+       }
+       ////////////////////////////////////////////////////////////////////////////////////////////////
+
+       // Task 7 - Repeating Menu with Exit Option
+       
     }
     
 }
