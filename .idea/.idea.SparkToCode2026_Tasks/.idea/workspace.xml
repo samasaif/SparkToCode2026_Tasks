@@ -16,6 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
       <workItem from="1783023300189" duration="8265000" />
-      <workItem from="1783251785639" duration="3709000" />
+      <workItem from="1783251785639" duration="4518000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -405,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783257614463</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Task 5 - p3">
+      <option name="closed" value="true" />
+      <created>1783257990755</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1783257990755</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 4" />
     <MESSAGE value="Task 5" />
     <MESSAGE value="task 6" />
     <MESSAGE value="Task 7" />
@@ -451,7 +459,8 @@
     <MESSAGE value="task 2 - p3" />
     <MESSAGE value="Task 3 - p3" />
     <MESSAGE value="Task 4 - p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 - p3" />
+    <MESSAGE value="Task 5 - p3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 - p3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
