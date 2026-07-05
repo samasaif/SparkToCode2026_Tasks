@@ -72,6 +72,7 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
         
         // Task 6 - Password Strength Checker
+        /*
         Console.Write("enter password: ");
         string password = Console.ReadLine();
 
@@ -83,6 +84,24 @@ class Program
             
         }else if (password.Length < 8) {
             Console.WriteLine("weak password |must be at least 8 characters long.");
+        }
+        */
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Task 7 - Clean Name Comparator
+        Console.Write("enter the first name: ");
+        string firstName = Convert.ToString(Console.ReadLine());
+        
+        Console.Write("enter the first name again: ");
+        string secondName = Convert.ToString(Console.ReadLine());
+
+        if (firstName.Trim().ToLower() == secondName.Trim().ToLower())
+        {
+            Console.WriteLine("Match");
+        }
+        else
+        {
+            Console.WriteLine("No match");
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
