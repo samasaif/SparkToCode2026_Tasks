@@ -169,6 +169,7 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
         
         // Task 11 - One-Time Password (OTP) Generator
+        /*
         Random random = new Random();
         int otp = random.Next(1000, 9999);
         Console.WriteLine("your OTP is: " + otp);
@@ -195,8 +196,20 @@ class Program
         } if (!verified) {
             Console.WriteLine("Verification Failed");
         }
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-        
+        // Task 12 - Birthday Insights
+        Console.Write("enter your date of birth (yyyy-MM-dd): ");
+        DateTime birthDate = DateTime.Parse(Console.ReadLine());
+
+        int age = DateTime.Today.Year - birthDate.Year;
+
+        if (DateTime.Today.Month < birthDate.Month || (DateTime.Today.Month == birthDate.Month && DateTime.Today.Day < birthDate.Day))
+        {
+            age--;
+        }
+        Console.WriteLine("age: " + age);
+        Console.WriteLine("day of birth: " + birthDate.DayOfWeek);
     }
 }
