@@ -15,9 +15,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="commiting some untracked files">
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
   "keyToString": {
     ".NET Project.Task1.executor": "Run",
     ".NET Project.Task2.executor": "Run",
+    ".NET Project.Task3.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -82,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Task2">
+  <component name="RunManager" selected=".NET Project.Task3">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -155,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
       <workItem from="1783023300189" duration="8265000" />
-      <workItem from="1783251785639" duration="339000" />
+      <workItem from="1783251785639" duration="2314000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -357,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783174425911</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add project files">
+      <option name="closed" value="true" />
+      <created>1783252165603</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1783252165603</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add project files">
+      <option name="closed" value="true" />
+      <created>1783252191889</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1783252191889</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +406,6 @@
     <MESSAGE value="Task 9" />
     <MESSAGE value="Task 10" />
     <MESSAGE value="task 11" />
-    <MESSAGE value="add project files" />
     <MESSAGE value="Task 1 from part 2 is implemented" />
     <MESSAGE value="task 2 - part 2" />
     <MESSAGE value="task 3 - part 2" />
@@ -402,7 +418,8 @@
     <MESSAGE value="Task 10 - p2" />
     <MESSAGE value="adjusted the code" />
     <MESSAGE value="adjusted task 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted task 8" />
+    <MESSAGE value="add project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
