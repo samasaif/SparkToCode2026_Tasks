@@ -155,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
       <workItem from="1783023300189" duration="8265000" />
-      <workItem from="1783251785639" duration="6474000" />
+      <workItem from="1783251785639" duration="6958000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -445,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783260788133</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="task 10 - p3">
+      <option name="closed" value="true" />
+      <created>1783260966177</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1783260966177</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 9" />
     <MESSAGE value="Task 10" />
     <MESSAGE value="task 11" />
     <MESSAGE value="Task 1 from part 2 is implemented" />
@@ -491,7 +498,8 @@
     <MESSAGE value="Task 7 - p3" />
     <MESSAGE value="Task 8 - p3" />
     <MESSAGE value="task 9 - p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 9 - p3" />
+    <MESSAGE value="task 10 - p3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 10 - p3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
