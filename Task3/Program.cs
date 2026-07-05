@@ -19,6 +19,7 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
         
         // Task 2 - Power & Root Explorer
+        /*
         Console.Write("enter a number: ");
         double input = double.Parse(Console.ReadLine());
         
@@ -27,6 +28,16 @@ class Program
         
         Console.WriteLine("square root of " + input + " = " + squareRoot);
         Console.WriteLine("square of " + input + " = " + square);
+        */
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Task 3 - Name Formatter
+        Console.Write("enter your full name: ");
+        string fullName = Console.ReadLine();
+        
+        Console.WriteLine("Uppercase: "  + fullName.ToUpper());
+        Console.WriteLine("Lowercase: "  + fullName.ToLower());
+        Console.WriteLine("Length : " + fullName.Length);
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
     }
