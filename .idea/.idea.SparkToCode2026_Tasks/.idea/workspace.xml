@@ -15,9 +15,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Task3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783023299174</updated>
       <workItem from="1783023300189" duration="8265000" />
-      <workItem from="1783251785639" duration="7285000" />
+      <workItem from="1783251785639" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -461,7 +459,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783261538569</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Task 12 - p3">
+      <option name="closed" value="true" />
+      <created>1783261935104</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1783261935104</updated>
+    </task>
+    <task id="LOCAL-00040" summary="adjusted the code">
+      <option name="closed" value="true" />
+      <created>1783262035888</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1783262035888</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="task 11" />
     <MESSAGE value="Task 1 from part 2 is implemented" />
     <MESSAGE value="task 2 - part 2" />
     <MESSAGE value="task 3 - part 2" />
@@ -493,7 +506,6 @@
     <MESSAGE value="Task 8 - p2" />
     <MESSAGE value="Task 9 - p2" />
     <MESSAGE value="Task 10 - p2" />
-    <MESSAGE value="adjusted the code" />
     <MESSAGE value="adjusted task 8" />
     <MESSAGE value="add project files" />
     <MESSAGE value="task 1 - p3" />
@@ -507,7 +519,9 @@
     <MESSAGE value="task 9 - p3" />
     <MESSAGE value="task 10 - p3" />
     <MESSAGE value="task 11 - p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 11 - p3" />
+    <MESSAGE value="Task 12 - p3" />
+    <MESSAGE value="adjusted the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted the code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
