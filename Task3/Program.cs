@@ -32,13 +32,27 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
         // Task 3 - Name Formatter
+        /*
         Console.Write("enter your full name: ");
         string fullName = Console.ReadLine();
         
         Console.WriteLine("Uppercase: "  + fullName.ToUpper());
         Console.WriteLine("Lowercase: "  + fullName.ToLower());
         Console.WriteLine("Length : " + fullName.Length);
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+        // Task 4 - Subscription End Date
+        Console.Write("enter the number of days of a free trial: ");
+        int freeTrials = int.Parse(Console.ReadLine());
+        
+        DateTime startSubscription = DateTime.Today;
+        DateTime endSubscription = startSubscription.AddDays(freeTrials);
+        
+        string formattedDate = endSubscription.ToString("yyyy-MM-dd");
+        Console.WriteLine("your subscription ends on: " + formattedDate);
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+        
     }
 }
