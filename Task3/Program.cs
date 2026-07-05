@@ -131,6 +131,7 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
         // Task 9 - Round Up / Round Down Explorer
+        /*
         Console.Write("enter a decimal number: ");
         double number = Convert.ToDouble(Console.ReadLine());
 
@@ -141,7 +142,28 @@ class Program
         Console.WriteLine("rounded: " + rounded);
         Console.WriteLine("rounded UP: " + roundedUp);
         Console.WriteLine("rounded DOWN: " + roundedDown);
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////
         
+        // Task 10 - Word Position Finder
+        Console.Write("enter a sentence: ");
+        string sentence = Console.ReadLine();
+
+        Console.Write("enter a word to search: ");
+        string word = Console.ReadLine();
+
+        int firstPosition = sentence.IndexOf(word);
+        int lastPosition = sentence.LastIndexOf(word);
+
+        if (firstPosition == -1)
+        {
+            Console.WriteLine("not found.");
+        }
+        else
+        {
+            Console.WriteLine("first Position: " + firstPosition);
+            Console.WriteLine("last Position: " + lastPosition);
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
