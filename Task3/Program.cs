@@ -43,6 +43,7 @@ class Program
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
         // Task 4 - Subscription End Date
+        /*
         Console.Write("enter the number of days of a free trial: ");
         int freeTrials = int.Parse(Console.ReadLine());
         
@@ -51,8 +52,22 @@ class Program
         
         string formattedDate = endSubscription.ToString("yyyy-MM-dd");
         Console.WriteLine("your subscription ends on: " + formattedDate);
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+        // Task 5 - Grade Rounding System
+        Console.Write("enter your exam score: ");
+        double examScore = Convert.ToDouble(Console.ReadLine());
+        
+        double roundedScore = Math.Round(examScore);
+        Console.WriteLine("rounded score: " +  roundedScore);
+
+        if (roundedScore >= 60) {
+            Console.WriteLine("PASS");
+        }else {
+            Console.WriteLine("FAIL");
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
         
     }
 }
