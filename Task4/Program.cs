@@ -23,6 +23,12 @@ class Program
        Console.WriteLine("the temperature in fahrenheit is " + fahrenheit);
        ////////////////////////////////////////////////////////////////////////
        
+       // Task 4 - Fixed Menu Display Function
+       DisplayMenu();
+       ////////////////////////////////////////////////////////////////////////
+       
+       
+       
     }
     
     // Task 1 - Personalized Welcome Function
@@ -38,6 +44,15 @@ class Program
     // Task 3 - Celsius to Fahrenheit Function
     public static double CelsiusToFahrenheit(double celsius)
     {return (celsius * 9/5) + 32;}
+    ////////////////////////////////////////////////////////////////////////
+    
+    // Task 4 - Fixed Menu Display Function
+    public static void DisplayMenu()
+    {
+        Console.WriteLine("1) Start");
+        Console.WriteLine("2) Help");
+        Console.WriteLine("3) Exit");
+    }
     ////////////////////////////////////////////////////////////////////////
     
     
