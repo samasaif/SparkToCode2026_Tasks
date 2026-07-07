@@ -59,6 +59,12 @@ class Program
         Console.WriteLine($"The score is {score} and the grade is {gradeLetter}");
         ////////////////////////////////////////////////////////////////////////
         
+       // Task 8 - Countdown Function
+       Console.Write("enter a starting number: ");
+       int startNum = int.Parse(Console.ReadLine());
+       Countdown(startNum);
+       ////////////////////////////////////////////////////////////////////////
+       
         
     }
     
@@ -138,5 +144,18 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
 
-
+    // Task 8 - Countdown Function
+    public static void Countdown(int startNum)
+    {
+        for (int i = startNum; i >= 1; i--)
+        {
+            Console.WriteLine(i);
+        } 
+        Console.WriteLine("Liftoff!");
+    }
+    ////////////////////////////////////////////////////////////////////////
+    
+    
+    
+    
 }
