@@ -41,7 +41,19 @@ class Program
             }
         ////////////////////////////////////////////////////////////////////////
         
+        // Task 6 - Rectangle Area & Perimeter Functions
+        Console.Write("enter length: ");
+        double length = double.Parse(Console.ReadLine());
+        Console.Write("enter width: ");
+        double width = double.Parse(Console.ReadLine());
+        double perimeter = CalculatePerimeter(length, width);
+        double area = CalculateArea(length, width);
+        Console.WriteLine("The perimeter is: " + perimeter);
+        Console.WriteLine("The area is: " + area);
+        ////////////////////////////////////////////////////////////////////////
 
+        
+        
     }
 
     //========================Functions=============================================
@@ -82,5 +94,16 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
 
+    // Task 6 - Rectangle Area & Perimeter Functions
+    public static double CalculateArea(double length, double width)
+    {
+        return length * width;
+    }
+    public static double CalculatePerimeter(double length, double width)
+    {
+        return (length + width) * 2;
+    }
+    ////////////////////////////////////////////////////////////////////////
+    
     
 }
