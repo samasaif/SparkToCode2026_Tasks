@@ -11,7 +11,10 @@ class Program
        ////////////////////////////////////////////////////////////////////////
        
        // Task 2 - Square Number Function
-       
+       Console.Write("enter a number: ");
+       int number = int.Parse(Console.ReadLine());
+       Console.WriteLine("the square of "+ number + " = " + SquareNum(number));
+       ////////////////////////////////////////////////////////////////////////
     }
     
     // Task 1 - Personalized Welcome Function
@@ -20,5 +23,7 @@ class Program
     ////////////////////////////////////////////////////////////////////////
     
     // Task 2 - Square Number Function
-    
+    public static int SquareNum(int number)
+    {return number * number;}
+    ////////////////////////////////////////////////////////////////////////
 }
