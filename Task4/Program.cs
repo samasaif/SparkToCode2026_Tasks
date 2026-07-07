@@ -52,9 +52,16 @@ class Program
         Console.WriteLine("The area is: " + area);
         ////////////////////////////////////////////////////////////////////////
 
+        // Task 7 - Grade Letter Function
+        Console.Write("enter your score: ");
+        int score = int.Parse(Console.ReadLine());
+        string gradeLetter = GetGradeLetter(score);
+        Console.WriteLine($"The score is {score} and the grade is {gradeLetter}");
+        ////////////////////////////////////////////////////////////////////////
         
         
     }
+    
 
     //========================Functions=============================================
     // Task 1 - Personalized Welcome Function
@@ -105,5 +112,31 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
     
-    
+    // Task 7 - Grade Letter Function
+    public static string GetGradeLetter(int score)
+    {
+        if (score >= 90)
+        {
+            return "A";
+        }
+        else if (score >= 80)
+        {
+            return "B";
+        }
+        else if (score >= 70)
+        {
+            return "C";
+        }
+        else if (score >= 60)
+        {
+            return "D";
+        }
+        else
+        {
+            return "F";
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////
+
+
 }

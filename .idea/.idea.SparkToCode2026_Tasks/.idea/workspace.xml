@@ -179,7 +179,7 @@
       <updated>1783023299174</updated>
       <workItem from="1783023300189" duration="8265000" />
       <workItem from="1783251785639" duration="7285000" />
-      <workItem from="1783359858170" duration="5502000" />
+      <workItem from="1783359858170" duration="7242000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -541,7 +541,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783431997880</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Task 5 - p4">
+      <option name="closed" value="true" />
+      <created>1783432354235</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1783432354235</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Task 6 - p4">
+      <option name="closed" value="true" />
+      <created>1783433589810</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1783433589810</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,8 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="task 6 - p2" />
-    <MESSAGE value="task 7 - p2" />
     <MESSAGE value="Task 8 - p2" />
     <MESSAGE value="Task 9 - p2" />
     <MESSAGE value="Task 10 - p2" />
@@ -587,7 +601,9 @@
     <MESSAGE value="Task 3 - p4" />
     <MESSAGE value="Task 4 - p4" />
     <MESSAGE value="added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
+    <MESSAGE value="Task 5 - p4" />
+    <MESSAGE value="Task 6 - p4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 6 - p4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
