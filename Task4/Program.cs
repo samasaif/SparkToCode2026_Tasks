@@ -2,6 +2,7 @@
 
 class Program
 {
+    //========================Main=============================================
     static void Main(string[] args)
     { 
        // Task 1 - Personalized Welcome Function
@@ -27,10 +28,12 @@ class Program
        DisplayMenu();
        ////////////////////////////////////////////////////////////////////////
        
+       // Task 5 - Even or Odd Function
        
        
     }
     
+    //========================Functions=============================================
     // Task 1 - Personalized Welcome Function
     public static void WelcomMssg(string name)
     { Console.WriteLine($"Welcome {name}!"); }
@@ -55,6 +58,7 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
     
+    // Task 5 - Even or Odd Function
     
     
 }
