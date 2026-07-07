@@ -15,6 +15,14 @@ class Program
        int number = int.Parse(Console.ReadLine());
        Console.WriteLine("the square of "+ number + " = " + SquareNum(number));
        ////////////////////////////////////////////////////////////////////////
+       
+       // Task 3 - Celsius to Fahrenheit Function
+       Console.Write("enter temperature in celsius: ");
+       double celsius = double.Parse(Console.ReadLine());
+       double fahrenheit = CelsiusToFahrenheit(celsius);
+       Console.WriteLine("the temperature in fahrenheit is " + fahrenheit);
+       ////////////////////////////////////////////////////////////////////////
+       
     }
     
     // Task 1 - Personalized Welcome Function
@@ -26,4 +34,12 @@ class Program
     public static int SquareNum(int number)
     {return number * number;}
     ////////////////////////////////////////////////////////////////////////
+    
+    // Task 3 - Celsius to Fahrenheit Function
+    public static double CelsiusToFahrenheit(double celsius)
+    {return (celsius * 9/5) + 32;}
+    ////////////////////////////////////////////////////////////////////////
+    
+    
+    
 }
