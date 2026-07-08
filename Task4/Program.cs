@@ -65,9 +65,12 @@ class Program
        Countdown(startNum);
        ////////////////////////////////////////////////////////////////////////
        
-        
-
-        
+       // Task 9 - Overloaded Multiply Function
+       Console.WriteLine("Multiply(int, int): " + multiply(2, 3));
+       Console.WriteLine("Multiply(double, double): " + multiply(2.5, 4.2));
+       Console.WriteLine("Multiply(int, int, int): " + multiply(2, 3, 4));
+       ////////////////////////////////////////////////////////////////////////
+       
         
     }
     
@@ -158,7 +161,14 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
     
-    
+    // Task 9 - Overloaded Multiply Function
+    static int multiply(int a, int b)
+    { return a * b; }
+    static double multiply(double a, double b)
+    { return a * b; }
+    static int multiply(int a, int b, int c)
+    { return a * b * c; }
+    ////////////////////////////////////////////////////////////////////////
 
     
     
