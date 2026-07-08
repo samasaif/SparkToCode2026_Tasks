@@ -127,6 +127,7 @@ class Program
         /////////////////////////////////////////////////////////////////////////////////////
 
         // Task 6 - Filtered Shopping List
+        /*
         List<string> shoppingList = new List<string>();
         string item = "";
         while (item != "done")
@@ -153,7 +154,39 @@ class Program
             foreach (var product in shoppingList)
             {
                 Console.WriteLine(product);
+            }*/
+            /////////////////////////////////////////////////////////////////////////////////////
+            
+            // Task 7 - High Score Podium
+            List<int> gameScores = new List<int>();
+            
+            for (int i = 0; i < 5; i++)
+            {
+                bool valid = false;
+                while (!valid)
+                {
+                    try
+                    {
+                        Console.Write("enter score " + (i + 1) + " : ");
+                        int score = int.Parse(Console.ReadLine());
+                        gameScores.Add(score);
+                        valid = true;
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("Invalid input... Please enter an integer");
+                    }
+                }
             }
-        
+            gameScores.Sort();
+            gameScores.Reverse();
+            
+            Console.WriteLine("top 3 scores");
+            Console.WriteLine("FIRST score: " + gameScores[0]);
+            Console.WriteLine("SECOND score: " + gameScores[1]);
+            Console.WriteLine("THIRD score: " + gameScores[2]);
+            /////////////////////////////////////////////////////////////////////////////////////
+            
+            
     }
 }
