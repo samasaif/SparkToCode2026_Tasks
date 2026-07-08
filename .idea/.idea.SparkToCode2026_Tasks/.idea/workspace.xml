@@ -205,15 +205,7 @@
       <workItem from="1783023300189" duration="8265000" />
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
-      <workItem from="1783528451502" duration="2392000" />
-    </task>
-    <task id="LOCAL-00006" summary="task 6">
-      <option name="closed" value="true" />
-      <created>1783025338848</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1783025338848</updated>
+      <workItem from="1783528451502" duration="4041000" />
     </task>
     <task id="LOCAL-00007" summary="Task 7">
       <option name="closed" value="true" />
@@ -599,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783538838411</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Task 1 - p5">
+      <option name="closed" value="true" />
+      <created>1783539861025</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1783539861026</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +620,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="task 2 - p3" />
     <MESSAGE value="Task 3 - p3" />
     <MESSAGE value="Task 4 - p3" />
     <MESSAGE value="Task 5 - p3" />
@@ -645,7 +644,8 @@
     <MESSAGE value="added new project files" />
     <MESSAGE value="commit files" />
     <MESSAGE value="added project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added project files" />
+    <MESSAGE value="Task 1 - p5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1 - p5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
