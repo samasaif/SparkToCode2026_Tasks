@@ -77,6 +77,7 @@ class Program
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 5 - Array Grade Range
+        /*
         int[] grades1 = new int[5];
         double sum = 0;
         int highestGrade = 0;
@@ -122,9 +123,37 @@ class Program
         Console.WriteLine("\nThe average of the grades is: " + averageGrade);
         Console.WriteLine("The highest grades is: " + highestGrade);
         Console.WriteLine("The lowest grades is: " + lowestGrade);
+        */
         /////////////////////////////////////////////////////////////////////////////////////
 
-        
+        // Task 6 - Filtered Shopping List
+        List<string> shoppingList = new List<string>();
+        string item = "";
+        while (item != "done")
+        {
+            Console.Write("Enter an item or type (done) to exit: ");
+            item = Console.ReadLine();
+
+            if (item != "done")
+            {
+                shoppingList.Add(item);
+            }
+        }
+
+        Console.WriteLine("shopping list: ");
+            foreach (var product in shoppingList)
+            {
+                Console.WriteLine(product);
+            }
+            
+            Console.Write("\nEnter an item to remove: ");
+            item = Console.ReadLine();
+            shoppingList.Remove(item);
+            Console.WriteLine("shopping list after removal: ");
+            foreach (var product in shoppingList)
+            {
+                Console.WriteLine(product);
+            }
         
     }
 }
