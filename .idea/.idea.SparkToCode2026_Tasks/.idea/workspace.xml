@@ -18,9 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Task4.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task4" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +77,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Task4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -184,22 +182,6 @@
       <workItem from="1783023300189" duration="8265000" />
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
-    </task>
-    <task id="LOCAL-00001" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1783024999127</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1783024999127</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1783025024727</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1783025024727</updated>
     </task>
     <task id="LOCAL-00003" summary="Task 3">
       <option name="closed" value="true" />
@@ -569,7 +551,31 @@
       <option name="project" value="LOCAL" />
       <updated>1783434333413</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="deleted my work in task 4 | forgot to do compare and pull request b4 merging">
+      <option name="closed" value="true" />
+      <created>1783436057331</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436057331</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added project files">
+      <option name="closed" value="true" />
+      <created>1783436098052</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436098052</updated>
+    </task>
+    <task id="LOCAL-00051" summary="pasted my whole work again - p4">
+      <option name="closed" value="true" />
+      <created>1783436122708</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436122708</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,9 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 9 - p2" />
-    <MESSAGE value="Task 10 - p2" />
-    <MESSAGE value="adjusted the code" />
     <MESSAGE value="adjusted task 8" />
     <MESSAGE value="task 1 - p3" />
     <MESSAGE value="task 2 - p3" />
@@ -615,7 +618,10 @@
     <MESSAGE value="Task 5 - p4" />
     <MESSAGE value="Task 6 - p4" />
     <MESSAGE value="Task 7- p4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7- p4" />
+    <MESSAGE value="deleted my work in task 4 | forgot to do compare and pull request b4 merging" />
+    <MESSAGE value="added project files" />
+    <MESSAGE value="pasted my whole work again - p4" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasted my whole work again - p4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
