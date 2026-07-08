@@ -56,11 +56,9 @@ class Program
 
         history.Pop();
         Console.WriteLine("page: " + history.Peek());
-        */
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 4 - Customer Service Queue
-        /*
         Queue<string> customers = new Queue<string>();
         for (int i = 0; i < 3; i++)
         {
@@ -206,7 +204,5 @@ class Program
                 Console.WriteLine(n);
             }
             /////////////////////////////////////////////////////////////////////////////////////
-
-            
     }
 }
