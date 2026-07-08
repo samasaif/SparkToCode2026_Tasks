@@ -65,34 +65,40 @@ class Program
        Countdown(startNum);
        ////////////////////////////////////////////////////////////////////////
        
+       // Task 9 - Overloaded Multiply Function
+       Console.WriteLine("Multiply(int, int): " + multiply(2, 3));
+       Console.WriteLine("Multiply(double, double): " + multiply(2.5, 4.2));
+       Console.WriteLine("Multiply(int, int, int): " + multiply(2, 3, 4));
+       ////////////////////////////////////////////////////////////////////////
+       
         
     }
     
 
     //========================Functions=============================================
     // Task 1 - Personalized Welcome Function
-    public static void WelcomMssg(string name)
+    static void WelcomMssg(string name)
     {
         Console.WriteLine($"Welcome {name}!");
     }
     ////////////////////////////////////////////////////////////////////////
 
     // Task 2 - Square Number Function
-    public static int SquareNum(int number)
+    static int SquareNum(int number)
     {
         return number * number;
     }
     ////////////////////////////////////////////////////////////////////////
 
     // Task 3 - Celsius to Fahrenheit Function
-    public static double CelsiusToFahrenheit(double celsius)
+    static double CelsiusToFahrenheit(double celsius)
     {
         return (celsius * 9 / 5) + 32;
     }
     ////////////////////////////////////////////////////////////////////////
 
     // Task 4 - Fixed Menu Display Function
-    public static void DisplayMenu()
+    static void DisplayMenu()
     {
         Console.WriteLine("1) Start");
         Console.WriteLine("2) Help");
@@ -101,25 +107,25 @@ class Program
     ////////////////////////////////////////////////////////////////////////
 
     // Task 5 - Even or Odd Function
-    public static bool IsEven(int num)
+    static bool IsEven(int num)
     {
         return num % 2 == 0;
     }
     ////////////////////////////////////////////////////////////////////////
 
     // Task 6 - Rectangle Area & Perimeter Functions
-    public static double CalculateArea(double length, double width)
+    static double CalculateArea(double length, double width)
     {
         return length * width;
     }
-    public static double CalculatePerimeter(double length, double width)
+    static double CalculatePerimeter(double length, double width)
     {
         return (length + width) * 2;
     }
     ////////////////////////////////////////////////////////////////////////
     
     // Task 7 - Grade Letter Function
-    public static string GetGradeLetter(int score)
+    static string GetGradeLetter(int score)
     {
         if (score >= 90)
         {
@@ -145,7 +151,7 @@ class Program
     ////////////////////////////////////////////////////////////////////////
 
     // Task 8 - Countdown Function
-    public static void Countdown(int startNum)
+    static void Countdown(int startNum)
     {
         for (int i = startNum; i >= 1; i--)
         {
@@ -155,7 +161,15 @@ class Program
     }
     ////////////////////////////////////////////////////////////////////////
     
-    
+    // Task 9 - Overloaded Multiply Function
+    static int multiply(int a, int b)
+    { return a * b; }
+    static double multiply(double a, double b)
+    { return a * b; }
+    static int multiply(int a, int b, int c)
+    { return a * b * c; }
+    ////////////////////////////////////////////////////////////////////////
+
     
     
 }
