@@ -182,11 +182,11 @@ class Program
             gameScores.Reverse();
             
             Console.WriteLine("top 3 scores");
-            Console.WriteLine("FIRST score: " + gameScores[0]);
-            Console.WriteLine("SECOND score: " + gameScores[1]);
-            Console.WriteLine("THIRD score: " + gameScores[2]);
+            Console.WriteLine("1st place: " + gameScores[0]);
+            Console.WriteLine("2nd place: " + gameScores[1]);
+            Console.WriteLine("3rd place: " + gameScores[2]);
             /////////////////////////////////////////////////////////////////////////////////////
             
-            
+            // Task 8 - Undo Last Action
     }
 }
