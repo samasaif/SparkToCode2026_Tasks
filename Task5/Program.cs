@@ -5,7 +5,6 @@ class Program
     static void Main(string[] args)
     {
         // Task 1 - Fixed Grades Array
-        /*
         int[] grades = new int[5];
 
         for (int i = 0; i < grades.Length; i++)
@@ -30,11 +29,9 @@ class Program
         {
             Console.WriteLine(grade);
         }
-        */
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 2 - Dynamic To-Do List
-        /*
         List<string> tasks = new List<string>();
         for (int i = 0; i < 5; i++)
         {
@@ -45,11 +42,10 @@ class Program
         foreach (var task in tasks)
         {
             Console.WriteLine(task);
-        }*/
+        }
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 3 - Browsing History Stack
-        /*
         Stack<string> history = new Stack<string>();
 
         for (int i = 0; i < 3; i++)
@@ -73,11 +69,9 @@ class Program
         }
         
         Console.WriteLine("serving: " + customers.Dequeue());
-        */
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 5 - Array Grade Range
-        /*
         int[] grades1 = new int[5];
         double sum = 0;
         int highestGrade = 0;
@@ -123,11 +117,9 @@ class Program
         Console.WriteLine("\nThe average of the grades is: " + averageGrade);
         Console.WriteLine("The highest grades is: " + highestGrade);
         Console.WriteLine("The lowest grades is: " + lowestGrade);
-        */
         /////////////////////////////////////////////////////////////////////////////////////
 
         // Task 6 - Filtered Shopping List
-        /*
         List<string> shoppingList = new List<string>();
         string item = "";
         while (item != "done")
@@ -154,11 +146,10 @@ class Program
             foreach (var product in shoppingList)
             {
                 Console.WriteLine(product);
-            }*/
+            }
             /////////////////////////////////////////////////////////////////////////////////////
             
             // Task 7 - High Score Podium
-            /*
             List<int> gameScores = new List<int>();
             
             for (int i = 0; i < 5; i++)
@@ -186,7 +177,6 @@ class Program
             Console.WriteLine("1st place: " + gameScores[0]);
             Console.WriteLine("2nd place: " + gameScores[1]);
             Console.WriteLine("3rd place: " + gameScores[2]);
-            */
             /////////////////////////////////////////////////////////////////////////////////////
             
             // Task 8 - Undo Last Action
