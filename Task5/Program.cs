@@ -1,5 +1,5 @@
 ﻿namespace Task5;
-
+using System.Collections.Generic;
 class Program
 {
     static void Main(string[] args)
@@ -49,6 +49,7 @@ class Program
         /////////////////////////////////////////////////////////////////////////////////////
         
         // Task 3 - Browsing History Stack
+        /*
         Stack<string> history = new Stack<string>();
 
         for (int i = 0; i < 3; i++)
@@ -59,5 +60,20 @@ class Program
 
         history.Pop();
         Console.WriteLine("page: " + history.Peek());
+        */
+        /////////////////////////////////////////////////////////////////////////////////////
+        
+        // Task 4 - Customer Service Queue
+        Queue<string> customers = new Queue<string>();
+        for (int i = 0; i < 3; i++)
+        {
+            Console.Write("Enter customer name: " + (i + 1) + " : ");
+            customers.Enqueue(Console.ReadLine());
+        }
+        
+        Console.WriteLine("serving: " + customers.Dequeue());
+        /////////////////////////////////////////////////////////////////////////////////////
+        
+        
     }
 }
