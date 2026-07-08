@@ -158,6 +158,7 @@ class Program
             /////////////////////////////////////////////////////////////////////////////////////
             
             // Task 7 - High Score Podium
+            /*
             List<int> gameScores = new List<int>();
             
             for (int i = 0; i < 5; i++)
@@ -185,8 +186,37 @@ class Program
             Console.WriteLine("1st place: " + gameScores[0]);
             Console.WriteLine("2nd place: " + gameScores[1]);
             Console.WriteLine("3rd place: " + gameScores[2]);
+            */
             /////////////////////////////////////////////////////////////////////////////////////
             
             // Task 8 - Undo Last Action
+            Stack<string> actions = new Stack<string>();
+            string action = "";
+            while (action.ToLower() != "stop")
+            {
+                Console.Write("Enter an action or type (stop) to finish: ");
+                action = Console.ReadLine();
+
+                if (action.ToLower() != "stop")
+                {
+                    actions.Push(action);
+                }
+            }
+            Console.WriteLine("\nundoing actions");
+            if (actions.Count > 0)
+            {
+                Console.WriteLine("undone: " + actions.Pop());
+            }if (actions.Count > 0)
+            {
+                Console.WriteLine("undone: " + actions.Pop());
+            }
+
+            foreach (var n in actions)
+            {
+                Console.WriteLine(n);
+            }
+            /////////////////////////////////////////////////////////////////////////////////////
+
+            
     }
 }
