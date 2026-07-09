@@ -310,10 +310,10 @@ namespace BankingSystemApp
                     Console.WriteLine("Customer balance: " + balances[i]);
                     found = true;
                 }
-                if  (!found)
-                {
-                    Console.WriteLine("Customer does not exist.");
-                }
+            }
+            if (!found)
+            {
+                Console.WriteLine("Customer does not exist.");
             }
         }
     }
