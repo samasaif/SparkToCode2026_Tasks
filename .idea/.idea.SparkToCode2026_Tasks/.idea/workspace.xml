@@ -231,23 +231,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="8872000" />
-    </task>
-    <task id="LOCAL-00027" summary="add project files">
-      <option name="closed" value="true" />
-      <created>1783252191889</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1783252191889</updated>
-    </task>
-    <task id="LOCAL-00028" summary="task 1 - p3">
-      <option name="closed" value="true" />
-      <created>1783256491601</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1783256491601</updated>
+      <workItem from="1783569461032" duration="9279000" />
     </task>
     <task id="LOCAL-00029" summary="task 2 - p3">
       <option name="closed" value="true" />
@@ -625,7 +609,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783581590675</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="withdraw and transfer reject 0">
+      <option name="closed" value="true" />
+      <created>1783581633638</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1783581633638</updated>
+    </task>
+    <task id="LOCAL-00077" summary="adjusted some comments">
+      <option name="closed" value="true" />
+      <created>1783581779493</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1783581779494</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,8 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="deleted my work in task 4 | forgot to do compare and pull request b4 merging" />
-    <MESSAGE value="pasted my whole work again - p4" />
     <MESSAGE value="added new project files" />
     <MESSAGE value="commit files" />
     <MESSAGE value="Task 1 - p5" />
@@ -671,7 +669,9 @@
     <MESSAGE value="moved !found outside the loop in SearchCustomer()" />
     <MESSAGE value="wont allow 0 deposit in AddAccount()" />
     <MESSAGE value="deposit should reject zero, and adjusted adding account function to accept 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="deposit should reject zero, and adjusted adding account function to accept 0" />
+    <MESSAGE value="withdraw and transfer reject 0" />
+    <MESSAGE value="adjusted some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted some comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
