@@ -19,7 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankingSystemApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,15 +232,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="2876000" />
-    </task>
-    <task id="LOCAL-00011" summary="task 11">
-      <option name="closed" value="true" />
-      <created>1783025496768</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1783025496768</updated>
+      <workItem from="1783569461032" duration="3175000" />
     </task>
     <task id="LOCAL-00012" summary="add project files">
       <option name="closed" value="true" />
@@ -627,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783571581394</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Service 1 - Add New Account">
+      <option name="closed" value="true" />
+      <created>1783572423801</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1783572423802</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +647,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 6 - p3" />
     <MESSAGE value="Task 7 - p3" />
     <MESSAGE value="Task 8 - p3" />
     <MESSAGE value="task 9 - p3" />
@@ -673,7 +671,8 @@
     <MESSAGE value="commiting untracked files" />
     <MESSAGE value="added project files" />
     <MESSAGE value="pasted the Program Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasted the Program Structure" />
+    <MESSAGE value="Service 1 - Add New Account" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service 1 - Add New Account" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
