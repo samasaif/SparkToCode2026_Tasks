@@ -88,7 +88,8 @@ namespace BankingSystemApp
             
             if (accountNumbers.Contains(accountNumber))
             {
-                Console.WriteLine("Customer already exists. Please choose a different account.");
+               Console.WriteLine("Customer already exists. Please choose a different account.");
+               return;
             }
             Console.WriteLine("Enter an initial deposit amount: ");
             double amount = 0;
@@ -97,14 +98,16 @@ namespace BankingSystemApp
             {
                 amount = double.Parse(Console.ReadLine());
             }
-            catch (Exception)
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid input. Please enter a valid amount.");
+                return;
             }
 
             if (amount < 0)
             {
                 Console.WriteLine("Balance cannot be negative. Please try again.");
+                return;
             }
             customerNames.Add(customerName);
             accountNumbers.Add(accountNumber);
@@ -125,6 +128,7 @@ namespace BankingSystemApp
             if (index == -1)
             {
                 Console.WriteLine("Customer does not exist.");
+                return;
             }
             
             Console.WriteLine("Enter amount to deposit: ");
@@ -133,13 +137,15 @@ namespace BankingSystemApp
             {
                 amount = double.Parse(Console.ReadLine());
             }
-            catch (Exception)
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid input.");
+                return;
             }
             if (amount < 0)
             {
                 Console.WriteLine("Balance cannot be negative. Please try again.");
+                return;
             }
             
             balances[index] += amount;
@@ -157,6 +163,7 @@ namespace BankingSystemApp
             if (index == -1)
             {
                 Console.WriteLine("Customer does not exist.");
+                return;
             }
             
             Console.WriteLine("Enter amount to withdraw: ");
@@ -165,18 +172,21 @@ namespace BankingSystemApp
             {
                 amount = double.Parse(Console.ReadLine());
             }
-            catch (Exception)
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid input.");
+                return;
             }
             if (amount < 0)
             {
                 Console.WriteLine("Balance cannot be negative. Please try again.");
+                return;
             }
 
             if (amount > balances[index])
             {
                 Console.WriteLine("Balance cannot be greater than balance.");
+                return;
             }
             
             balances[index] -= amount;
@@ -194,6 +204,7 @@ namespace BankingSystemApp
             if (index == -1)
             {
                 Console.WriteLine("Customer does not exist.");
+                return;
             }
             Console.WriteLine("Displaying the details");
             Console.WriteLine("Customer name: " + customerNames[index]);
@@ -210,6 +221,7 @@ namespace BankingSystemApp
             if (senderIndex == -1)
             {
                 Console.WriteLine("Customer does not exist.");
+                return;
             }
             
             Console.WriteLine("Enter receiver's account number: ");
@@ -219,6 +231,7 @@ namespace BankingSystemApp
             if (receiveIndex == -1)
             {
                 Console.WriteLine("Customer does not exist.");
+                return;
             }
             
             Console.WriteLine("Enter amount to transfer: ");
@@ -227,19 +240,22 @@ namespace BankingSystemApp
             {
                 amount = double.Parse(Console.ReadLine());
             }
-            catch (Exception)
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid input.");
+                return;
             }
 
             if (amount < 0)
             {
                 Console.WriteLine("Balance cannot be negative.");
+                return;
             }
 
             if (amount > balances[senderIndex])
             {
                 Console.WriteLine("Balance cannot be greater than balance.");
+                return;
             }
             
             balances[senderIndex] -= amount;
@@ -257,6 +273,7 @@ namespace BankingSystemApp
             if (customerNames.Count == 0)
             {
                 Console.WriteLine("Customer list is empty.");
+                return;
             }
             
             Console.WriteLine("List of accounts: ");

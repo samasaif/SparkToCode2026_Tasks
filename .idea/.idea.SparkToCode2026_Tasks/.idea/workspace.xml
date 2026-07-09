@@ -18,7 +18,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemApp/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,15 +234,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="5562000" />
-    </task>
-    <task id="LOCAL-00019" summary="task 7 - p2">
-      <option name="closed" value="true" />
-      <created>1783173175005</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1783173175006</updated>
+      <workItem from="1783569461032" duration="7068000" />
     </task>
     <task id="LOCAL-00020" summary="Task 8 - p2">
       <option name="closed" value="true" />
@@ -625,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783575014985</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add services 6 &amp; 7 in the menu">
+      <option name="closed" value="true" />
+      <created>1783575139145</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1783575139145</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +649,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 1 - p4" />
     <MESSAGE value="Task 2 - p4" />
     <MESSAGE value="Task 3 - p4" />
     <MESSAGE value="Task 4 - p4" />
@@ -671,7 +673,8 @@
     <MESSAGE value="chose two more services (6,7)" />
     <MESSAGE value="Service 6 - List All Accounts" />
     <MESSAGE value="Service 7 - Search Accounts by Customer Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service 7 - Search Accounts by Customer Name" />
+    <MESSAGE value="add services 6 &amp; 7 in the menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add services 6 &amp; 7 in the menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
