@@ -20,7 +20,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,15 +233,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="305000" />
-    </task>
-    <task id="LOCAL-00009" summary="Task 9">
-      <option name="closed" value="true" />
-      <created>1783025449033</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1783025449033</updated>
+      <workItem from="1783569461032" duration="1919000" />
     </task>
     <task id="LOCAL-00010" summary="Task 10">
       <option name="closed" value="true" />
@@ -627,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783553787926</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added project files">
+      <option name="closed" value="true" />
+      <created>1783570161760</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1783570161761</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,11 +669,11 @@
     <MESSAGE value="pasted my whole work again - p4" />
     <MESSAGE value="added new project files" />
     <MESSAGE value="commit files" />
-    <MESSAGE value="added project files" />
     <MESSAGE value="Task 1 - p5" />
     <MESSAGE value="restore Task5.csproj" />
     <MESSAGE value="commiting untracked files" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting untracked files" />
+    <MESSAGE value="added project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
