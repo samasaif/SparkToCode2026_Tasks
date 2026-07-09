@@ -94,7 +94,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Task5">
+  <component name="RunManager" selected=".NET Project.Banking_Management_Console_App">
     <configuration name="Banking_Management_Console_App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -233,15 +233,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="1919000" />
-    </task>
-    <task id="LOCAL-00010" summary="Task 10">
-      <option name="closed" value="true" />
-      <created>1783025476571</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1783025476571</updated>
+      <workItem from="1783569461032" duration="2876000" />
     </task>
     <task id="LOCAL-00011" summary="task 11">
       <option name="closed" value="true" />
@@ -627,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783570161761</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="pasted the Program Structure">
+      <option name="closed" value="true" />
+      <created>1783571581393</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1783571581394</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 5 - p3" />
     <MESSAGE value="Task 6 - p3" />
     <MESSAGE value="Task 7 - p3" />
     <MESSAGE value="Task 8 - p3" />
@@ -673,7 +672,8 @@
     <MESSAGE value="restore Task5.csproj" />
     <MESSAGE value="commiting untracked files" />
     <MESSAGE value="added project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added project files" />
+    <MESSAGE value="pasted the Program Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasted the Program Structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
