@@ -177,7 +177,7 @@ namespace BankingSystemApp
                 Console.WriteLine("Invalid input.");
                 return;
             }
-            if (amount < 0)
+            if (amount <= 0)
             {
                 Console.WriteLine("Balance cannot be negative. Please try again.");
                 return;
@@ -252,7 +252,7 @@ namespace BankingSystemApp
                 return;
             }
 
-            if (amount < 0)
+            if (amount <= 0)
             {
                 Console.WriteLine("Balance cannot be negative.");
                 return;
