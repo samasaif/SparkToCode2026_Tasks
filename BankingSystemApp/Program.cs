@@ -57,10 +57,10 @@ namespace BankingSystemApp
                         TransferAmount();
                         break;
                     case 6:
-                        SearchCustomer();
+                        ListAllAccounts();
                         break;
                     case 7: 
-                        ListAllAccounts();
+                        SearchCustomer();
                         break;
                     case 8:
                         exitApp = true;
@@ -113,7 +113,7 @@ namespace BankingSystemApp
             accountNumbers.Add(accountNumber);
             balances.Add(amount);
             
-            Console.WriteLine("Customer added.");
+            Console.WriteLine("Customer added!");
             Console.WriteLine("Customer name: " + customerName);
             Console.WriteLine("Customer number: " + accountNumber);
             Console.WriteLine("Customer balance: " + amount);
