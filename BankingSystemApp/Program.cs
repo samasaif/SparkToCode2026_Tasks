@@ -272,7 +272,26 @@ namespace BankingSystemApp
         
         static void SearchCustomer()
         {
+            Console.WriteLine("Enter customer name: ");
+            string customerName = Console.ReadLine();
             
+            bool found = false;
+            
+            for (int i = 0; i < customerNames.Count; i++)
+            {
+                if (customerNames[i].ToUpper() == customerName.ToUpper())
+                {
+                    Console.WriteLine("Customer found");
+                    Console.WriteLine("Customer name: " + customerNames[i]);
+                    Console.WriteLine("Customer number: " + accountNumbers[i]);
+                    Console.WriteLine("Customer balance: " + balances[i]);
+                    found = true;
+                }
+                if  (!found)
+                {
+                    Console.WriteLine("Customer does not exist.");
+                }
+            }
         }
     }
 }

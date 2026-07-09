@@ -232,23 +232,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="4884000" />
-    </task>
-    <task id="LOCAL-00016" summary="task 4 - part 2">
-      <option name="closed" value="true" />
-      <created>1783171743532</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1783171743532</updated>
-    </task>
-    <task id="LOCAL-00017" summary="task 5 - part 2">
-      <option name="closed" value="true" />
-      <created>1783172219258</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1783172219258</updated>
+      <workItem from="1783569461032" duration="5197000" />
     </task>
     <task id="LOCAL-00018" summary="task 6 - p2">
       <option name="closed" value="true" />
@@ -626,7 +610,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783574119676</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="chose two more services (6,7)">
+      <option name="closed" value="true" />
+      <created>1783574391183</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1783574391183</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Service 6 - List All Accounts">
+      <option name="closed" value="true" />
+      <created>1783574569614</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1783574569614</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,8 +647,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="task 11 - p3" />
-    <MESSAGE value="commit untracked files" />
     <MESSAGE value="add project files" />
     <MESSAGE value="Task 1 - p4" />
     <MESSAGE value="Task 2 - p4" />
@@ -672,7 +670,9 @@
     <MESSAGE value="Service 3 - Withdraw Money" />
     <MESSAGE value="Service 4 - Show Balance" />
     <MESSAGE value="Service 5 - Transfer Amount" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service 5 - Transfer Amount" />
+    <MESSAGE value="chose two more services (6,7)" />
+    <MESSAGE value="Service 6 - List All Accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service 6 - List All Accounts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
