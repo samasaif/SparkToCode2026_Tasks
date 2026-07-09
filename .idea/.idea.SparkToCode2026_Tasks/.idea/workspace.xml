@@ -18,9 +18,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BankingSystemApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemApp/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Banking_Management_Console_App.executor": "Run",
     ".NET Project.Task1.executor": "Run",
     ".NET Project.Task2.executor": "Run",
     ".NET Project.Task3.executor": "Run",
@@ -232,15 +231,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="5197000" />
-    </task>
-    <task id="LOCAL-00018" summary="task 6 - p2">
-      <option name="closed" value="true" />
-      <created>1783172863941</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1783172863941</updated>
+      <workItem from="1783569461032" duration="5562000" />
     </task>
     <task id="LOCAL-00019" summary="task 7 - p2">
       <option name="closed" value="true" />
@@ -626,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783574569614</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Service 7 - Search Accounts by Customer Name">
+      <option name="closed" value="true" />
+      <created>1783575014985</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1783575014985</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add project files" />
     <MESSAGE value="Task 1 - p4" />
     <MESSAGE value="Task 2 - p4" />
     <MESSAGE value="Task 3 - p4" />
@@ -672,7 +670,8 @@
     <MESSAGE value="Service 5 - Transfer Amount" />
     <MESSAGE value="chose two more services (6,7)" />
     <MESSAGE value="Service 6 - List All Accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service 6 - List All Accounts" />
+    <MESSAGE value="Service 7 - Search Accounts by Customer Name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service 7 - Search Accounts by Customer Name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
