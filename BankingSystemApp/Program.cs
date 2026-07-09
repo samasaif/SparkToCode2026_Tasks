@@ -254,7 +254,20 @@ namespace BankingSystemApp
 
         static void ListAllAccounts()
         {
+            if (customerNames.Count == 0)
+            {
+                Console.WriteLine("Customer list is empty.");
+            }
             
+            Console.WriteLine("List of accounts: ");
+
+            for (int i = 0; i < accountNumbers.Count; i++)
+            {
+                Console.WriteLine("Customer name: " + customerNames[i]);
+                Console.WriteLine("Customer number: " + accountNumbers[i]);
+                Console.WriteLine("Customer balance: " + balances[i]);
+                Console.WriteLine();
+            }
         }
         
         static void SearchCustomer()
