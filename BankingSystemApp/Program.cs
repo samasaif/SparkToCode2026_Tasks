@@ -92,7 +92,7 @@ namespace BankingSystemApp
                return;
             }
             Console.WriteLine("Enter an initial deposit amount: ");
-            double amount = 0;
+            double amount;
 
             try
             {
@@ -132,7 +132,7 @@ namespace BankingSystemApp
             }
             
             Console.WriteLine("Enter amount to deposit: ");
-            double amount = 0;
+            double amount;
             try
             {
                 amount = double.Parse(Console.ReadLine());
@@ -151,7 +151,7 @@ namespace BankingSystemApp
             balances[index] += amount;
             
             Console.WriteLine("Customer deposited.");
-            Console.WriteLine("Updated balance: " + balances[index]);;
+            Console.WriteLine("Updated balance: " + balances[index]);
         }
 
         static void WithdrawMoney()
@@ -167,7 +167,7 @@ namespace BankingSystemApp
             }
             
             Console.WriteLine("Enter amount to withdraw: ");
-            double amount = 0;
+            double amount;
             try
             {
                 amount = double.Parse(Console.ReadLine());
@@ -192,7 +192,7 @@ namespace BankingSystemApp
             balances[index] -= amount;
             
             Console.WriteLine("Customer withdrawed.");
-            Console.WriteLine("Updated balance: " + balances[index]);;
+            Console.WriteLine("Updated balance: " + balances[index]);
         }
 
         static void ShowBalance()
@@ -235,7 +235,7 @@ namespace BankingSystemApp
             }
             
             Console.WriteLine("Enter amount to transfer: ");
-            double amount = 0;
+            double amount;
             try
             {
                 amount = double.Parse(Console.ReadLine());
