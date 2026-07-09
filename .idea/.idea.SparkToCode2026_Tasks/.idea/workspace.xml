@@ -19,6 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankingSystemApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,15 +233,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="3175000" />
-    </task>
-    <task id="LOCAL-00012" summary="add project files">
-      <option name="closed" value="true" />
-      <created>1783026100942</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1783026100942</updated>
+      <workItem from="1783569461032" duration="3818000" />
     </task>
     <task id="LOCAL-00013" summary="Task 1 from part 2 is implemented">
       <option name="closed" value="true" />
@@ -626,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783572423802</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Service 2 - Deposit Money">
+      <option name="closed" value="true" />
+      <created>1783572934569</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1783572934569</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 7 - p3" />
     <MESSAGE value="Task 8 - p3" />
     <MESSAGE value="task 9 - p3" />
     <MESSAGE value="task 10 - p3" />
@@ -672,7 +672,8 @@
     <MESSAGE value="added project files" />
     <MESSAGE value="pasted the Program Structure" />
     <MESSAGE value="Service 1 - Add New Account" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service 1 - Add New Account" />
+    <MESSAGE value="Service 2 - Deposit Money" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service 2 - Deposit Money" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

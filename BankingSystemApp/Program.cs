@@ -150,7 +150,39 @@ namespace BankingSystemApp
 
         static void WithdrawMoney()
         {
-            // TODO: implement this service (see Section 3 requirements)
+            Console.WriteLine("Enter account number: ");
+            string accountNumber = Console.ReadLine();
+            int index = accountNumbers.IndexOf(accountNumber);
+
+            if (index == -1)
+            {
+                Console.WriteLine("Customer does not exist.");
+            }
+            
+            Console.WriteLine("Enter amount to withdraw: ");
+            double amount = 0;
+            try
+            {
+                amount = double.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid input.");
+            }
+            if (amount < 0)
+            {
+                Console.WriteLine("Balance cannot be negative. Please try again.");
+            }
+
+            if (amount > balances[index])
+            {
+                Console.WriteLine("Balance cannot be greater than balance.");
+            }
+            
+            balances[index] -= amount;
+            
+            Console.WriteLine("Customer withdrawed.");
+            Console.WriteLine("Updated balance: " + balances[index]);;
         }
 
         static void ShowBalance()
