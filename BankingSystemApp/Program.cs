@@ -150,7 +150,7 @@ namespace BankingSystemApp
             
             balances[index] += amount;
             
-            Console.WriteLine("Customer deposited.");
+            Console.WriteLine("Deposit successful.");
             Console.WriteLine("Updated balance: " + balances[index]);
         }
 
@@ -185,13 +185,13 @@ namespace BankingSystemApp
 
             if (amount > balances[index])
             {
-                Console.WriteLine("Balance cannot be greater than balance.");
+                Console.WriteLine("Insufficient balance.");
                 return;
             }
             
             balances[index] -= amount;
             
-            Console.WriteLine("Customer withdrawed.");
+            Console.WriteLine("Withdrawal successful.");
             Console.WriteLine("Updated balance: " + balances[index]);
         }
 
@@ -260,14 +260,14 @@ namespace BankingSystemApp
 
             if (amount > balances[senderIndex])
             {
-                Console.WriteLine("Balance cannot be greater than balance.");
+                Console.WriteLine("Insufficient balance.");
                 return;
             }
             
             balances[senderIndex] -= amount;
             balances[receiveIndex] += amount;
             
-            Console.WriteLine("Customer transfered.");
+            Console.WriteLine("Transfer successful.");
             Console.WriteLine("Updated sender balance: " + balances[senderIndex]);
             Console.WriteLine("Updated receiver balance: " + balances[receiveIndex]);
         } 
