@@ -56,11 +56,11 @@ namespace BankingSystemApp
                     case 5:
                         TransferAmount();
                         break;
-                    case 6: 
-                        // TODO: call your first custom service function here
+                    case 6:
+                        SearchCustomer();
                         break;
                     case 7: 
-                        // TODO: call your second custom service function here
+                        ListAllAccounts();
                         break;
                     case 8:
                         exitApp = true;
@@ -250,7 +250,16 @@ namespace BankingSystemApp
             Console.WriteLine("Updated receiver balance: " + balances[receiveIndex]);
         } 
         
-        // TODO: write two more void, no-parameter functions here for
         // your own custom services (option 6 and option 7)
+
+        static void ListAllAccounts()
+        {
+            
+        }
+        
+        static void SearchCustomer()
+        {
+            
+        }
     }
 }
