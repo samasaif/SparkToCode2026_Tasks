@@ -104,9 +104,9 @@ namespace BankingSystemApp
                 return;
             }
 
-            if (amount < 0)
+            if (amount <= 0)
             {
-                Console.WriteLine("Balance cannot be negative. Please try again.");
+                Console.WriteLine("Balance must be positive. Please try again.");
                 return;
             }
             customerNames.Add(customerName);
