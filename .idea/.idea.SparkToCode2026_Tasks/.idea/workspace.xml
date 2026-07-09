@@ -233,15 +233,7 @@
       <workItem from="1783251785639" duration="7285000" />
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
-      <workItem from="1783569461032" duration="8228000" />
-    </task>
-    <task id="LOCAL-00022" summary="Task 10 - p2">
-      <option name="closed" value="true" />
-      <created>1783174211806</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1783174211806</updated>
+      <workItem from="1783569461032" duration="8535000" />
     </task>
     <task id="LOCAL-00023" summary="adjusted the code">
       <option name="closed" value="true" />
@@ -627,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783580594595</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="adjusted some parts in the code">
+      <option name="closed" value="true" />
+      <created>1783581025771</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1783581025771</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Task 4 - p4" />
     <MESSAGE value="added comments" />
     <MESSAGE value="Task 5 - p4" />
     <MESSAGE value="Task 6 - p4" />
@@ -673,7 +672,8 @@
     <MESSAGE value="add services 6 &amp; 7 in the menu" />
     <MESSAGE value="changed catch (Exception) to catch (FormatException) and added 'return' to some functions" />
     <MESSAGE value="switched between case 6 &amp; 7 in the switch-case" />
-    <option name="LAST_COMMIT_MESSAGE" value="switched between case 6 &amp; 7 in the switch-case" />
+    <MESSAGE value="adjusted some parts in the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted some parts in the code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

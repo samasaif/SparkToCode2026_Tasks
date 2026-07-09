@@ -246,6 +246,12 @@ namespace BankingSystemApp
                 return;
             }
 
+            if (senderAccountNumber == receiverAccountNumber)
+            {
+                Console.WriteLine("You cannot transfer to the same account.");
+                return;
+            }
+
             if (amount < 0)
             {
                 Console.WriteLine("Balance cannot be negative.");
