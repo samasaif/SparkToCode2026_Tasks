@@ -44,6 +44,29 @@ public class BankAccount
     }
 }
 
+// 2- class Student
+public class Student
+{
+    public int Grade { get; set; }
+    public string Name { get; set; }
+    public string Address { get; set; }
+    private string email { get; set; }
+    int age;
+
+    public void Register(string Email)
+    {
+        email =  Email;
+        SendEmail();
+    }
+
+    private void SendEmail()
+    {
+        Console.WriteLine("Registration email sent.");
+    }
+    
+
+}
+
 public class Program
 {
     static void Main(string[] args)

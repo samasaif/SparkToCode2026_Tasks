@@ -21,7 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP Part 1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP Part 1/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,15 +257,7 @@
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
       <workItem from="1783569461032" duration="9279000" />
-      <workItem from="1784064167188" duration="4418000" />
-    </task>
-    <task id="LOCAL-00031" summary="Task 4 - p3">
-      <option name="closed" value="true" />
-      <created>1783257614463</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1783257614463</updated>
+      <workItem from="1784064167188" duration="4718000" />
     </task>
     <task id="LOCAL-00032" summary="Task 5 - p3">
       <option name="closed" value="true" />
@@ -652,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784069413388</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="1- class BankAccount">
+      <option name="closed" value="true" />
+      <created>1784070157571</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1784070157571</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="commiting untracked files" />
     <MESSAGE value="added project files" />
     <MESSAGE value="pasted the Program Structure" />
     <MESSAGE value="Service 1 - Add New Account" />
@@ -698,7 +696,8 @@
     <MESSAGE value="commit untracked files" />
     <MESSAGE value="add project files" />
     <MESSAGE value="pasted the given code for the main" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasted the given code for the main" />
+    <MESSAGE value="1- class BankAccount" />
+    <option name="LAST_COMMIT_MESSAGE" value="1- class BankAccount" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
