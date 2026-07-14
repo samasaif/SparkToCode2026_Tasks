@@ -1,5 +1,48 @@
 ﻿namespace OOP_Part_1;
 
+// 1- class BankAccount
+public class BankAccount
+{
+    public int AccountNumber { get; set; }
+    public string HolderName { get; set; }
+    public double Balance { get; set; }
+
+    public void Deposit(double amount)
+    {
+        Balance += amount;
+        Sendemail();
+    }
+
+    public void Withdraw(double amount)
+    {
+        if (amount <= Balance)
+        {
+            Balance -= amount;
+            Sendemail();
+        }
+        else
+        {
+            Console.WriteLine("Insufficient funds");
+        }
+    }
+
+    public double CheckBalance()
+    {
+        PrintInformation();
+        return Balance;
+    }
+
+    private void PrintInformation()
+    {
+        Console.WriteLine($"Holder Name: {HolderName}");
+        Console.WriteLine($"Balance: {Balance}");
+    }
+
+    private void Sendemail()
+    {
+        Console.WriteLine("Sendemail");
+    }
+}
 
 public class Program
 {

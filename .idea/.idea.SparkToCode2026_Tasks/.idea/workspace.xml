@@ -258,15 +258,7 @@
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
       <workItem from="1783569461032" duration="9279000" />
-      <workItem from="1784064167188" duration="3775000" />
-    </task>
-    <task id="LOCAL-00030" summary="Task 3 - p3">
-      <option name="closed" value="true" />
-      <created>1783257193063</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1783257193063</updated>
+      <workItem from="1784064167188" duration="4418000" />
     </task>
     <task id="LOCAL-00031" summary="Task 4 - p3">
       <option name="closed" value="true" />
@@ -652,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784067321163</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="pasted the given code for the main">
+      <option name="closed" value="true" />
+      <created>1784069413388</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1784069413388</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="restore Task5.csproj" />
     <MESSAGE value="commiting untracked files" />
     <MESSAGE value="added project files" />
     <MESSAGE value="pasted the Program Structure" />
@@ -698,7 +697,8 @@
     <MESSAGE value="commit untracked files" />
     <MESSAGE value="commit untracked files" />
     <MESSAGE value="add project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project files" />
+    <MESSAGE value="pasted the given code for the main" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasted the given code for the main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
