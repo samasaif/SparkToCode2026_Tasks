@@ -63,8 +63,50 @@ public class Student
     {
         Console.WriteLine("Registration email sent.");
     }
-    
+}
 
+// 3- class Product
+public class Product
+{
+    public string ProductName { get; set; }
+    public double Price { get; set; }
+    public int StockQuantity  { get; set; }
+
+    public void Sell(int quantity)
+    {
+        if  (StockQuantity >= quantity)
+        {
+            StockQuantity -= quantity;
+        }
+        else
+        {
+            Console.WriteLine("Not enough stock");
+        }
+    }
+    
+    public void Restock(int quantity)
+    {
+        StockQuantity += quantity;
+        LogTransaction();
+    }
+
+    public double GetInventoryValue()
+    {
+        PrintDetails();
+        return StockQuantity;
+    }
+
+    private void PrintDetails()
+    {
+        Console.WriteLine("Product Name: " + ProductName);
+        Console.WriteLine("Product Price: " + Price);
+        Console.WriteLine("Stock Quantity: " + StockQuantity);
+    }
+
+    private void LogTransaction()
+    {
+        Console.WriteLine("Transaction logged");
+    }
 }
 
 public class Program
