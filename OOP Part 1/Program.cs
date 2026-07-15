@@ -25,7 +25,7 @@ public class BankAccount
             Console.WriteLine("Insufficient funds");
         }
     }
-
+    
     public double CheckBalance()
     {
         PrintInformation();
@@ -43,6 +43,7 @@ public class BankAccount
         Console.WriteLine("Sendemail");
     }
 }
+////////////////////////////////////////////////////////////////////////////////////
 
 // 2- class Student
 public class Student
@@ -64,6 +65,7 @@ public class Student
         Console.WriteLine("Registration email sent.");
     }
 }
+////////////////////////////////////////////////////////////////////////////////////
 
 // 3- class Product
 public class Product
@@ -108,6 +110,7 @@ public class Product
         Console.WriteLine("Transaction logged");
     }
 }
+////////////////////////////////////////////////////////////////////////////////////
 
 public class Program
 {
@@ -300,6 +303,7 @@ public class Program
             Console.WriteLine("Invalid amount");
         }
     }
+    ////////////////////////////////////////////////////////////////////////////////////
     
     
 } 
