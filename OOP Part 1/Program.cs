@@ -253,10 +253,12 @@ public class Program
         if (choice == 1)
         {
             student1.Address = address;
+            Console.WriteLine("New Student Address: " + student1.Address);
         }
         else if (choice == 2)
         {
             student2.Address = address;
+            Console.WriteLine("New Student Address: " + student2.Address);
         }
         else
         {
@@ -264,7 +266,40 @@ public class Program
         }
     }
     ////////////////////////////////////////////////////////////////////////////////////
-    
+
+    // Case 3 - Make a Deposit
+    static void MakeDeposit()
+    {
+        Console.WriteLine("choose account (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("enter deposit  amount: ");
+        try
+        {
+            double deposit = Convert.ToDouble(Console.ReadLine());
+
+            if (choice == 1)
+            {
+                account1.Deposit(deposit);
+                Console.WriteLine("Holder: " + account1.HolderName);
+                Console.WriteLine("Account Balance: " + account1.Balance);
+            }
+            else if (choice == 2)
+            {
+                account2.Deposit(deposit);
+                Console.WriteLine("Holder: " + account2.HolderName);
+                Console.WriteLine("Account Balance: " + account2.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Invalid account. Please choose between 1 and 2.");
+            }
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Invalid amount");
+        }
+    }
     
     
 } 
