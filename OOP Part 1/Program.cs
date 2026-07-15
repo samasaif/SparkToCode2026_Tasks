@@ -338,6 +338,24 @@ public class Program
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
-    
+    // Case 5 - View Product Details
+    static void ViewProductDetails()
+    {
+        Console.WriteLine("choose product (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+        if (choice == 1)
+        {
+            Console.WriteLine("Total Inventory Value: " + product1.GetInventoryValue());
+        }
+        else if (choice == 2)
+        {
+            Console.WriteLine("Total Inventory Value: " + product2.GetInventoryValue());
+        }
+        else
+        {
+            Console.WriteLine("Invalid product. Please choose between 1 and 2.");
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////
     
 } 
