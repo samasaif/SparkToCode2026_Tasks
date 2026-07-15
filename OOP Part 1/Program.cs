@@ -358,4 +358,31 @@ public class Program
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
+    // Case 6 - Register a Student
+    static void RegisterStudent()
+    {
+        Console.WriteLine("choose student (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("enter email: ");
+        string email = Console.ReadLine();
+
+        if (choice == 1)
+        {
+            student1.Register(email);
+            Console.WriteLine(student1.Name + " has been registered!");
+        }
+        else if (choice == 2)
+        {
+            student2.Register(email);
+            Console.WriteLine(student2.Name + " has been registered!");
+        }
+        else
+        {
+            Console.WriteLine("Invalid student. Please choose between 1 and 2.");
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////
+    
+    
 } 
