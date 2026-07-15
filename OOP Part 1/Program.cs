@@ -387,7 +387,18 @@ public class Program
     // Case 7 - Compare Two Account Balances
     static void CompareAccountBalances()
     {
-        
+        if (account1.Balance < account2.Balance)
+        {
+            Console.WriteLine(account2.HolderName + " has higher balance than " + account1.HolderName);
+        }
+        else if (account1.Balance > account2.Balance)
+        {
+            Console.WriteLine(account1.HolderName + " has higher balance than " + account2.Balance);
+        }
+        else
+        {
+            Console.WriteLine("both accounts have the same balance");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
