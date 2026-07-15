@@ -239,6 +239,31 @@ public class Program
             Console.WriteLine("Invalid account. Please choose between 1 and 2.");
         }
     }
+    ////////////////////////////////////////////////////////////////////////////////////
+    
+    // Case 2 - Update Student Address
+    static void UpdateStudentAddress()
+    {
+        Console.WriteLine("choose student (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("enter new student address: ");
+        string address = Console.ReadLine();
+
+        if (choice == 1)
+        {
+            student1.Address = address;
+        }
+        else if (choice == 2)
+        {
+            student2.Address = address;
+        }
+        else
+        {
+            Console.WriteLine("Invalid student. Please choose between 1 and 2.");
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////
     
     
     
