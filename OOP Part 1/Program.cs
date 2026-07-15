@@ -305,5 +305,39 @@ public class Program
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
+    // Case 4 - Make a Withdrawal
+    static void MakeWithdrawal()
+    {
+        Console.WriteLine("choose account (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("enter withdrawal amount: ");
+        try
+        {
+            double amount = Convert.ToDouble(Console.ReadLine());
+
+            if (choice == 1)
+            {
+                account1.Withdraw(amount);
+                Console.WriteLine("Balance: " + account1.Balance);
+            }
+            else if (choice == 2)
+            {
+                account2.Withdraw(amount);
+                Console.WriteLine("Balance: " + account2.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Invalid amount. Please choose between 1 and 2.");
+            }
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Invalid amount");
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////
+    
+    
     
 } 
