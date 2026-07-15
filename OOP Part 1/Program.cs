@@ -6,7 +6,7 @@ public class BankAccount
     public int AccountNumber { get; set; }
     public string HolderName { get; set; }
     public double Balance { get; set; }
-
+    
     public void Deposit(double amount)
     {
         Balance += amount;
@@ -111,8 +111,42 @@ public class Product
 
 public class Program
 {
+    // create the objects
+    static BankAccount account1 = new BankAccount();
+    static BankAccount account2 = new BankAccount();
+
+    static Student student1 = new Student();
+    static Student student2 = new Student();
+
+    static Product product1 = new Product();
+    static Product product2 = new Product();
+    
     static void Main(string[] args)
     { 
+        account1.AccountNumber = 1163;
+        account1.HolderName = "Karim";
+        account1.Balance = 120;
+        
+        account2.AccountNumber = 15203;
+        account2.HolderName = "Ali";
+        account2.Balance = 63;
+
+        student1.Name = "Ali";
+        student1.Address = "Muscat";
+        student1.Grade = 65;
+
+        student2.Name = "Ahmed";
+        student1.Address = "Muscat";
+        student1.Grade = 70;
+        
+        product1.ProductName = "Wireless Mouse";
+        product1.Price = 5.500;
+        product1.StockQuantity = 50;
+        
+        product2.ProductName = "Mechanical Keyboard";
+        product1.Price = 15.750;
+        product1.StockQuantity = 20;
+        
         bool exitApp = false; 
         while (exitApp == false)
         {
