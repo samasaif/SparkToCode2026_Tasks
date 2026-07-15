@@ -405,7 +405,48 @@ public class Program
     // Case 8 - Restock Product & Stock Level Check
     static void RestockProduct()
     {
+        Console.WriteLine("choose product (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
         
+        Console.WriteLine("enter a quantity to add: ");
+
+        try
+        {
+            int quantity = Convert.ToInt32(Console.ReadLine());
+
+            if (choice == 1)
+            {
+                product1.Restock(quantity);
+                Console.WriteLine("new stock: " + product1.StockQuantity);
+
+                if (product1.StockQuantity < 10)
+                {
+                    Console.WriteLine("stock level is now LOW!");
+                }
+                else if (product1.StockQuantity < 50)
+                {
+                    Console.WriteLine("stock level is now Well Stocked!");
+                }
+            }
+            else if (choice == 2)
+            {
+                product2.Restock(quantity);
+                Console.WriteLine("new stock: " + product2.StockQuantity);
+
+                if (product2.StockQuantity < 10)
+                {
+                    Console.WriteLine("stock level is now LOW!");
+                }
+                else if (product2.StockQuantity < 50)
+                {
+                    Console.WriteLine("stock level is now Well Stocked!");
+                }
+            }
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Invalid quantity");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
