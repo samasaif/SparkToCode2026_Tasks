@@ -213,6 +213,33 @@ public class Program
                     Console.WriteLine("Invalid option, please choose between 1 and 20."); 
                     break; 
             } 
+            
+            
         } 
     } 
+    
+    // Case 1 - View Account Details
+    static void ViewAccountDetails()
+    {
+        Console.WriteLine("choose account (1 or 2): ");
+        int choice =  Convert.ToInt32(Console.ReadLine());
+
+        if (choice == 1)
+        {
+            account1.CheckBalance();
+            Console.WriteLine("Account Balance: " + account1.Balance);
+        }
+        else if (choice == 2)
+        {
+            account2.CheckBalance();
+            Console.WriteLine("Account Balance: " + account2.Balance);
+        }
+        else
+        {
+            Console.WriteLine("Invalid account. Please choose between 1 and 2.");
+        }
+    }
+    
+    
+    
 } 
