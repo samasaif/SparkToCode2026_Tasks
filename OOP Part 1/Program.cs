@@ -627,7 +627,57 @@ public class Program
     // Case 13 - Bulk Sale With Revenue Calculation
     static void BulkSaleWithRevenue()
     {
-        
+        Console.Write("choose product (1 or 2): ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter quantity to sell: ");
+        try
+        {
+            int quantity = Convert.ToInt32(Console.ReadLine());
+
+            if (choice == 1)
+            {
+                if (quantity > product1.StockQuantity)
+                {
+                    Console.WriteLine("Not enough stock!");
+                    Console.WriteLine("need " + (quantity - product1.StockQuantity) + " more units.");
+                }
+                else
+                {
+                    product1.Sell(quantity);
+
+                    double revenue = quantity * product1.Price;
+
+                    Console.WriteLine("Remaining Stock: " + product1.StockQuantity);
+                    Console.WriteLine("Revenue: " + revenue);
+                }
+            }
+            else if (choice == 2)
+            {
+                if (quantity > product2.StockQuantity)
+                {
+                    Console.WriteLine("Not enough stock!");
+                    Console.WriteLine("need " + (quantity - product2.StockQuantity) + " more units.");
+                }
+                else
+                {
+                    product2.Sell(quantity);
+
+                    double revenue = quantity * product2.Price;
+
+                    Console.WriteLine("Remaining Stock: " + product2.StockQuantity);
+                    Console.WriteLine("Revenue: " + revenue);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid product!");
+            }
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid quantity!");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
