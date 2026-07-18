@@ -20,10 +20,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP Part 1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP Part 1/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,103 +255,7 @@
       <workItem from="1783359858170" duration="8220000" />
       <workItem from="1783528451502" duration="4041000" />
       <workItem from="1783569461032" duration="9279000" />
-      <workItem from="1784064167188" duration="6789000" />
-    </task>
-    <task id="LOCAL-00033" summary="Task 6 - p3">
-      <option name="closed" value="true" />
-      <created>1783258683260</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1783258683260</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Task 7 - p3">
-      <option name="closed" value="true" />
-      <created>1783260072228</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1783260072244</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Task 8 - p3">
-      <option name="closed" value="true" />
-      <created>1783260525443</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1783260525443</updated>
-    </task>
-    <task id="LOCAL-00036" summary="task 9 - p3">
-      <option name="closed" value="true" />
-      <created>1783260788133</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1783260788133</updated>
-    </task>
-    <task id="LOCAL-00037" summary="task 10 - p3">
-      <option name="closed" value="true" />
-      <created>1783260966177</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1783260966177</updated>
-    </task>
-    <task id="LOCAL-00038" summary="task 11 - p3">
-      <option name="closed" value="true" />
-      <created>1783261538569</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1783261538569</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add project files">
-      <option name="closed" value="true" />
-      <created>1783360370809</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1783360370809</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Task 1 - p4">
-      <option name="closed" value="true" />
-      <created>1783430920967</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1783430920967</updated>
-    </task>
-    <task id="LOCAL-00041" summary="added comments">
-      <option name="closed" value="true" />
-      <created>1783431039832</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1783431039832</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Task 2 - p4">
-      <option name="closed" value="true" />
-      <created>1783431384223</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1783431384223</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Task 3 - p4">
-      <option name="closed" value="true" />
-      <created>1783431646234</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1783431646234</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Task 4 - p4">
-      <option name="closed" value="true" />
-      <created>1783431904833</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1783431904833</updated>
+      <workItem from="1784064167188" duration="13071000" />
     </task>
     <task id="LOCAL-00045" summary="added comments">
       <option name="closed" value="true" />
@@ -652,7 +553,103 @@
       <option name="project" value="LOCAL" />
       <updated>1784070478160</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="3- class Product">
+      <option name="closed" value="true" />
+      <created>1784073280958</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1784073280958</updated>
+    </task>
+    <task id="LOCAL-00083" summary="created  two BankAccount objects, two Student objects, and two Product objects">
+      <option name="closed" value="true" />
+      <created>1784074268069</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1784074268069</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Case 1 - View Account Details">
+      <option name="closed" value="true" />
+      <created>1784075608752</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1784075608752</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Case 2 - Update Student Address">
+      <option name="closed" value="true" />
+      <created>1784075995375</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1784075995376</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Case 3 - Make a Deposit &amp; adjusted case 2">
+      <option name="closed" value="true" />
+      <created>1784076401783</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1784076401783</updated>
+    </task>
+    <task id="LOCAL-00087" summary="added seperation &quot;comment&quot;">
+      <option name="closed" value="true" />
+      <created>1784076547709</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1784076547709</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Case 4 - Make a Withdrawal">
+      <option name="closed" value="true" />
+      <created>1784076879668</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1784076879668</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Case 5 - View Product Details">
+      <option name="closed" value="true" />
+      <created>1784077048279</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1784077048279</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Case 6 - Register a Student">
+      <option name="closed" value="true" />
+      <created>1784077372304</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1784077372304</updated>
+    </task>
+    <task id="LOCAL-00091" summary="set up the cases">
+      <option name="closed" value="true" />
+      <created>1784078124718</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1784078124718</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Case 7 - Compare Two Account Balances">
+      <option name="closed" value="true" />
+      <created>1784078312864</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1784078312864</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Case 8 - Restock Product &amp; Stock Level Check">
+      <option name="closed" value="true" />
+      <created>1784078920669</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1784078920669</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,18 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="pasted the Program Structure" />
-    <MESSAGE value="Service 1 - Add New Account" />
-    <MESSAGE value="Service 2 - Deposit Money" />
-    <MESSAGE value="Service 3 - Withdraw Money" />
-    <MESSAGE value="Service 4 - Show Balance" />
-    <MESSAGE value="Service 5 - Transfer Amount" />
-    <MESSAGE value="chose two more services (6,7)" />
-    <MESSAGE value="Service 6 - List All Accounts" />
-    <MESSAGE value="Service 7 - Search Accounts by Customer Name" />
-    <MESSAGE value="add services 6 &amp; 7 in the menu" />
-    <MESSAGE value="changed catch (Exception) to catch (FormatException) and added 'return' to some functions" />
-    <MESSAGE value="switched between case 6 &amp; 7 in the switch-case" />
     <MESSAGE value="adjusted some parts in the code" />
     <MESSAGE value="fixed service 5 to prevent transferring between the same account" />
     <MESSAGE value="moved !found outside the loop in SearchCustomer()" />
@@ -698,7 +683,19 @@
     <MESSAGE value="pasted the given code for the main" />
     <MESSAGE value="1- class BankAccount" />
     <MESSAGE value="2- class Student" />
-    <option name="LAST_COMMIT_MESSAGE" value="2- class Student" />
+    <MESSAGE value="3- class Product" />
+    <MESSAGE value="created  two BankAccount objects, two Student objects, and two Product objects" />
+    <MESSAGE value="Case 1 - View Account Details" />
+    <MESSAGE value="Case 2 - Update Student Address" />
+    <MESSAGE value="Case 3 - Make a Deposit &amp; adjusted case 2" />
+    <MESSAGE value="added seperation &quot;comment&quot;" />
+    <MESSAGE value="Case 4 - Make a Withdrawal" />
+    <MESSAGE value="Case 5 - View Product Details" />
+    <MESSAGE value="Case 6 - Register a Student" />
+    <MESSAGE value="set up the cases" />
+    <MESSAGE value="Case 7 - Compare Two Account Balances" />
+    <MESSAGE value="Case 8 - Restock Product &amp; Stock Level Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Case 8 - Restock Product &amp; Stock Level Check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

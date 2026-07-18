@@ -453,7 +453,62 @@ public class Program
     // Case 9 - Transfer Between Accounts
     static void TransferBetweenAccounts()
     {
-        
+        Console.Write("choose a source account (1 or 2): ");
+        int source = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("choose a destination account (1 or 2): ");
+        int destination = Convert.ToInt32(Console.ReadLine());
+
+        if (source == destination)
+        {
+            Console.WriteLine("Cannot transfer to the same account.");
+            return;
+        }
+
+        Console.Write("Enter amount to transfer: ");
+
+        double amount;
+
+        try
+        {
+            amount = Convert.ToDouble(Console.ReadLine());
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid amount");
+            return;
+        }
+
+        if (source == 1 && destination == 2)
+        {
+            if (amount <= account1.Balance)
+            {
+                account1.Withdraw(amount);
+                account2.Deposit(amount);
+                Console.WriteLine("Transfer completed!");
+            }
+            else
+            {
+                Console.WriteLine("Insufficient balance");
+            }
+        }
+        else if (source == 2 && destination == 1)
+        {
+            if (amount <= account2.Balance)
+            {
+                account2.Withdraw(amount);
+                account1.Deposit(amount);
+                Console.WriteLine("Transfer completed!");
+            }
+            else
+            {
+                Console.WriteLine("Insufficient balance");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid account selection.");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
