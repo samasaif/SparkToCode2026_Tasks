@@ -555,7 +555,36 @@ public class Program
     // Case 11 - Student Report Card
     static void StudentReportCard()
     {
+        Console.Write("choose student (1 or 2): ");
+        int choice = Convert.ToInt32(Console.ReadLine());
         
+        Student student;
+        if (choice == 1)
+        {
+            student = student1;
+        }
+        else if (choice == 2)
+        {
+            student = student2;
+        }
+        else
+        {
+            Console.WriteLine("Invalid student");
+            return;
+        }
+        
+        Console.WriteLine("\nStudent Name: " + student.Name);
+        Console.WriteLine("Address: " + student.Address);
+        Console.WriteLine("Grade: " + student.Grade);
+
+        if (student.Grade >= 50)
+        {
+            Console.WriteLine("Result: Pass");
+        }
+        else
+        {
+            Console.WriteLine("Result: Fail");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
