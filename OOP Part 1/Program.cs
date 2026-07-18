@@ -515,7 +515,40 @@ public class Program
     // Case 10 - Update Student Grade (Validated)
     static void UpdateStudentGrade()
     {
-        
+        Console.Write("choose student (1 or 2): ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("enter grade: ");
+        int newGrade;
+        try
+        {
+            newGrade = Convert.ToInt32(Console.ReadLine());
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid input! Please enter a valid integer");
+            return;
+        }
+
+        if (newGrade < 0 || newGrade > 100)
+        {
+            Console.WriteLine("Invalid! must be between 0 and 100");
+            return;
+        }
+        if (choice == 1)
+        {
+            student1.Grade = newGrade;
+            Console.WriteLine("Student 1 Grade: " + student1.Grade);
+        }
+        else if (choice == 2)
+        {
+            student2.Grade = newGrade;
+            Console.WriteLine("Student 2 Grade: " + student2.Grade);
+        }
+        else
+        {
+            Console.WriteLine("Invalid student!");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
