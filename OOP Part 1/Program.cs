@@ -591,7 +591,36 @@ public class Program
     // Case 12 - Account Health Status
     static void AccountHealthStatus()
     {
+        Console.Write("choose account (1 or 2): ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+        BankAccount account;
         
+        if (choice == 1)
+        {
+            account = account1;
+        }
+        else if (choice == 2)
+        {
+            account = account2;
+        }
+        else
+        {
+            Console.WriteLine("Invalid account");
+            return;
+        }
+        
+        if (account.Balance < 50)
+        {
+            Console.WriteLine("status : Low Balance");
+        }
+        else if (account.Balance <= 1000)
+        {
+            Console.WriteLine("status : Healthy");
+        }
+        else
+        {
+            Console.WriteLine("status : Premium");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////
     
