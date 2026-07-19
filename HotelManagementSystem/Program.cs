@@ -357,7 +357,7 @@ public class Program
         ////////////////////////////////////////////////////////////////////////////////////////
         
         // Case 06 Search & Filter Rooms
-        static void SearchAndFilterRooms() { 
+        static void SearchRooms() { 
             bool back = false;
             
             while (!back) 
@@ -511,12 +511,92 @@ public class Program
                 } 
             } 
         }
-        
-        
-        
-        
+        ////////////////////////////////////////////////////////////////////////////////////////
         
         // Case 07 Guest & Booking Statistics 
+        static void BookingStatistics() 
+        { 
+            Console.WriteLine("===== Guest & Booking Statistics =====");
+
+            // Total registered guests
+            Console.WriteLine("Total Registered Guests: " + guests.Count());
+            
+            // Total guests with a room assigned
+            int bookedGuests = guests.Where(g => g.roomNumber != "Not Assigned").Count();
+            Console.WriteLine("Guests with Active Booking: " + bookedGuests);
+
+            // Total rooms
+            Console.WriteLine("Total Rooms: " + rooms.Count());
+
+            // Total booked rooms
+            Console.WriteLine("Booked Rooms: " + rooms.Count(r => r.isAvailable == false));
+
+            // Check if there are any active bookings
+            if (!guests.Any(g => g.roomNumber != "Not Assigned")) 
+            { 
+                Console.WriteLine("No active bookings recorded"); 
+                return; 
+            } 
+            
+            // Average number of nights
+            double averageNights = guests
+                .Where(g => g.roomNumber != "Not Assigned")
+                .Average(g => g.totalNights);
+            Console.WriteLine("Average Nights: " + averageNights.ToString("F2")); 
+            
+            Console.WriteLine("\nTop 3 Highest Spending Guests:"); 
+            var topGuests = guests
+                .Where(g => g.roomNumber != "Not Assigned")
+                .OrderByDescending(g =>
+                g.calculateTotalCost(rooms.FirstOrDefault(r => r.roomNumber.ToString() == g.roomNumber).pricePerNight)).Take(3); 
+            
+            foreach (Guest guest in topGuests) 
+            { 
+                // find the room that belongs to the current guest
+                Room room = rooms.FirstOrDefault(r => r.roomNumber.ToString() == guest.roomNumber); 
+                
+                // calculate the total amount the guest will pay
+                double totalCost = guest.calculateTotalCost(room.pricePerNight); 
+                
+                Console.WriteLine("Guest Name: " + guest.guestName);
+                Console.WriteLine("Room Number: " + guest.roomNumber);
+                Console.WriteLine("Total Cost: OMR " + totalCost.ToString("F2"));
+                Console.WriteLine(); 
+            } 
+            
+            Console.WriteLine("Booking Summary:"); 
+            // who have a room assigned
+            var summary = guests
+                .Where(g => g.roomNumber != "Not Assigned")
+                
+                // summary line for each booked guest
+                .Select(g => 
+                { 
+                    // room that belongs to the current guest
+                    Room room = rooms.FirstOrDefault(r => r.roomNumber.ToString() == g.roomNumber);
+                    
+                    // guest's booking details
+                    return g.guestName + 
+                           " - Room " + g.roomNumber +
+                           " - " + g.totalNights + " nights - OMR " +
+                           g.calculateTotalCost(room.pricePerNight).ToString("F2"); 
+                }); 
+            // print each booking summary
+            foreach (string line in summary) 
+            { 
+                Console.WriteLine(line); 
+            } 
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // Case 08 Update Room Price 
         // Case 09 Guest Lookup by Name 
         // Case 10 Room Type Breakdown Report 
