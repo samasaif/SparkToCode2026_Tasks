@@ -356,6 +356,16 @@ public class Program
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         
+        // Case 06 Search & Filter Rooms 
+        // Case 07 Guest & Booking Statistics 
+        // Case 08 Update Room Price 
+        // Case 09 Guest Lookup by Name 
+        // Case 10 Room Type Breakdown Report 
+        // Case 11 Check Out a Guest 
+        // Case 12 Remove Unavailable Rooms 
+        // Case 13 Extend Guest Stay 
+        // Case 14 Highest Revenue Booking 
+        // Case 15 Guest Pagination Viewer 
         
         
         
