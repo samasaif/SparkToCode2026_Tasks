@@ -65,6 +65,8 @@ public class Guest
 
 public class Program
 {
+    List<Room> rooms = new List<Room>();
+    List<Guest> guests = new List<Guest>();
     static void Main(string[] args)
     {
     }
