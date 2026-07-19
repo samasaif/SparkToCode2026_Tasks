@@ -65,9 +65,15 @@ public class Guest
 
 public class Program
 {
-    List<Room> rooms = new List<Room>();
+    static List<Room> rooms = new List<Room>(); 
     List<Guest> guests = new List<Guest>();
     static void Main(string[] args)
     {
+        rooms.Add(new Room(101, "Single", 20, true));
+        rooms.Add(new Room(102, "Double", 40, true));
+        rooms.Add(new Room(103, "Suite", 80, true));
+        rooms.Add(new Room(104, "Single", 20, true));
+        rooms.Add(new Room(105, "Double", 40, true));
+        rooms.Add(new Room(106, "Suite", 80, true));
     }
 }
