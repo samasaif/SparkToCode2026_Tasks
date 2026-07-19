@@ -115,11 +115,29 @@ public class Program
             switch (choice)
             {
                 case 1: AddNewRoom(); break;
-                
+                case 2: RegisterGuest();  break;
+                case 3: BookRoom(); break;
+                case 4: ViewAllRooms(); break;
+                case 5: ViewAllGuests(); break;
+                case 6: SearchRooms(); break;
+                case 7: BookingStatistics(); break;
+                case 8: UpdateRoomPrice(); break;
+                case 9: GuestLookup(); break;
+                case 10: RoomBreakdown(); break;
+                case 11: CheckoutGuest(); break;
+                case 12: RemoveUnavailableRooms(); break;
+                case 13: ExtendStay(); break;
+                case 14: HighestRevenueBooking(); break;
+                case 15: GuestPagination(); break;
+                case 0:
+                    exit = true;
+                    Console.WriteLine("Goodbye!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
             }
-
-
-
         }
+        
     }
 }
