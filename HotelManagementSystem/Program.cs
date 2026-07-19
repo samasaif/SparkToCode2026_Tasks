@@ -66,7 +66,7 @@ public class Guest
 public class Program
 {
     static List<Room> rooms = new List<Room>(); 
-    List<Guest> guests = new List<Guest>();
+    static List<Guest> guests = new List<Guest>();
     static void Main(string[] args)
     {
         rooms.Add(new Room(101, "Single", 20, true));
@@ -198,6 +198,54 @@ public class Program
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         
+        // Case 02 Register New Guest 
+        static void RegisterGuest()
+        {
+            Console.Write("Enter Guest Name: ");
+            string guestName = Console.ReadLine();
+
+            Console.Write("Enter Check-in Date: ");
+            string checkInDate = Console.ReadLine();
+
+            Console.Write("Enter Number of Nights: ");
+
+            int totalNights;
+
+            try
+            {
+                totalNights = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid number of nights!");
+                return;
+            }
+
+            if (totalNights <= 0)
+            {
+                Console.WriteLine("Number of nights must be greater than zero");
+                return;
+            }
+            // Auto-generate the guest ID from the current size of the guests list (format: G001, G002, G003 ...)
+            string guestId = "G" + (guests.Count + 1).ToString("D3"); // D = Decimal (display the number as an integer)
+                                                                            // 3 = Always use at least 3 digits. If the number has fewer than 3 digits, add leading zeros
+            Guest newGuest = new Guest(
+                guestId,
+                guestName,
+                "Not Assigned",
+                checkInDate,
+                totalNights
+            );
+            guests.Add(newGuest);
+            
+            Console.WriteLine("\nGuest Registered Successfully!");
+            Console.WriteLine("Guest ID: " + guestId);
+            Console.WriteLine("Guest Name: " + guestName);
+            Console.WriteLine("Room Number: Not Assigned");
+            Console.WriteLine("Check-in Date: " + checkInDate);
+            Console.WriteLine("Total Nights: " + totalNights);
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
         
         
         
@@ -205,5 +253,20 @@ public class Program
         
         
         
-    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
 }
