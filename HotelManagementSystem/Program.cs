@@ -296,10 +296,41 @@ public class Program
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         
+        // Case 04 View All Rooms 
+        static void ViewAllRooms()
+        {
+            if (rooms.Count() == 0)
+            {
+                Console.WriteLine("No rooms have been added yet.");
+                return;
+            }
+
+            Console.WriteLine("Total Rooms: " + rooms.Count());
+
+            var roomList = rooms
+                                           .OrderBy(r => r.roomNumber)
+                                           .Select(r => r);
+
+            foreach (Room room in roomList)
+            {
+                Console.WriteLine("===============================");
+                Console.WriteLine("Room Number: " + room.roomNumber);
+                Console.WriteLine("Room Type: " + room.roomType);
+                Console.WriteLine("Price Per Night: " + room.pricePerNight);
+
+                if (room.isAvailable)
+                {
+                    Console.WriteLine("Status: Available");
+                }
+                else
+                {
+                    Console.WriteLine("Status: Booked");
+                }
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
         
-        
-        
-        
+        // Case 05 View All Guests 
         
         
         
