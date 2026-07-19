@@ -247,9 +247,54 @@ public class Program
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         
-        
-        
-        
+        // Case 03 Book a Room for a Guest 
+        static void BookRoom()
+        {
+            Console.Write("Enter Guest ID: ");
+            string guestId = Console.ReadLine();
+            Console.Write("Enter Room Number: ");
+            int roomNumber;
+            try
+            {
+                roomNumber = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid room number");
+                return;
+            }
+            Guest guest = guests.FirstOrDefault(g => g.guestId == guestId);
+
+            if (guest == null)
+            {
+                Console.WriteLine("Guest not found");
+                return;
+            }
+            Room room = rooms.FirstOrDefault(r => r.roomNumber == roomNumber);
+
+            if (room == null)
+            {
+                Console.WriteLine("Room not found");
+                return;
+            }
+
+            if (room.isAvailable == false)
+            {
+                Console.WriteLine("Room is already booked");
+                return;
+            }
+            guest.roomNumber = room.roomNumber.ToString();
+            room.isAvailable = false;
+
+            Console.WriteLine("\nBooking Successful!");
+            Console.WriteLine("Guest Name: " + guest.guestName);
+            Console.WriteLine("Room Number: " + room.roomNumber);
+            Console.WriteLine("Room Type: " + room.roomType);
+            Console.WriteLine("Price Per Night: " + room.pricePerNight);
+            Console.WriteLine("Total Nights: " + guest.totalNights);
+            Console.WriteLine("Total Cost: " + guest.calculateTotalCost(room.pricePerNight));
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
         
         
         
