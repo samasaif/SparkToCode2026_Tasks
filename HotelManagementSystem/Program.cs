@@ -331,9 +331,30 @@ public class Program
         ////////////////////////////////////////////////////////////////////////////////////////
         
         // Case 05 View All Guests 
-        
-        
-        
+        static void ViewAllGuests()
+        {
+            if (guests.Count() == 0)
+            {
+                Console.WriteLine("No guests have been registered yet.");
+                return;
+            }
+
+            Console.WriteLine("Total Guests: " + guests.Count());
+
+            var guestList = guests
+                                             .OrderBy(g => g.guestName)
+                                             .Select(g => g);
+            foreach (Guest guest in guestList)
+            {
+                Console.WriteLine("===============================");
+                Console.WriteLine("Guest ID: " + guest.guestId);
+                Console.WriteLine("Guest Name: " + guest.guestName);
+                Console.WriteLine("Room Number: " + guest.roomNumber);
+                Console.WriteLine("Check-in Date: " + guest.checkInDate);
+                Console.WriteLine("Total Nights: " + guest.totalNights);
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
         
         
         
