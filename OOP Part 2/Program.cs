@@ -75,5 +75,51 @@ public class Program
         rooms.Add(new Room(104, "Single", 20, true));
         rooms.Add(new Room(105, "Double", 40, true));
         rooms.Add(new Room(106, "Suite", 80, true));
+        
+        bool exit = false;
+        while (!exit)
+        {
+            Console.WriteLine("================================================");
+            Console.WriteLine("GRAND VISTA HOTEL — MANAGEMENT SYSTEM");
+            Console.WriteLine("================================================");
+            Console.WriteLine("1. Add New Room");
+            Console.WriteLine("2. Register New Guest");
+            Console.WriteLine("3. Book a Room for a Guest");
+            Console.WriteLine("4. View All Rooms");
+            Console.WriteLine("5. View All Guests");
+            Console.WriteLine("6. Search & Filter Rooms");
+            Console.WriteLine("7. Guest & Booking Statistics");
+            Console.WriteLine("8. Update Room Price");
+            Console.WriteLine("9. Guest Lookup by Name");
+            Console.WriteLine("10. Room Type Breakdown Report");
+            Console.WriteLine("11. Check Out a Guest");
+            Console.WriteLine("12. Remove Unavailable Rooms");
+            Console.WriteLine("13. Extend Guest Stay");
+            Console.WriteLine("14. Highest Revenue Booking");
+            Console.WriteLine("15. Guest Pagination Viewer");
+            Console.WriteLine(" 0. Exit");
+            Console.WriteLine("================================================");
+            Console.WriteLine("Enter your choice: ");
+
+            int choice;
+            try
+            {
+                choice = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Invalid choice");
+                continue;
+            }
+
+            switch (choice)
+            {
+                case 1: AddNewRoom(); break;
+                
+            }
+
+
+
+        }
     }
 }
