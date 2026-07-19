@@ -589,30 +589,53 @@ public class Program
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         
-        
-        
-        
-        
-        
-        
-        
-        
         // Case 08 Update Room Price 
-        // Case 09 Guest Lookup by Name 
-        // Case 10 Room Type Breakdown Report 
-        // Case 11 Check Out a Guest 
-        // Case 12 Remove Unavailable Rooms 
-        // Case 13 Extend Guest Stay 
-        // Case 14 Highest Revenue Booking 
-        // Case 15 Guest Pagination Viewer 
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        static void UpdateRoomPrice()
+        {
         }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 09 Guest Lookup by Name 
+        static void GuestLookup()
+        {
+            
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 10 Room Type Breakdown Report 
+        static void RoomBreakdown()
+        {
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 11 Check Out a Guest 
+        static void CheckoutGuest()
+        {
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 12 Remove Unavailable Rooms 
+        static void RemoveUnavailableRooms()
+        {
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 13 Extend Guest Stay 
+        static void ExtendStay()
+        {
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+       
+        // Case 14 Highest Revenue Booking 
+        static void HighestRevenueBooking()
+        {
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        // Case 15 Guest Pagination Viewer 
+        static void GuestPagination()
+        {
+            
+        }
+    }
 }
