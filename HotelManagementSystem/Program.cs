@@ -138,6 +138,72 @@ public class Program
                     break;
             }
         }
+        // Case 01 Add New Room 
+        static void AddNewRoom()
+        {
+            Console.Write("Enter room number: ");
+
+            int roomNumber;
+
+            try
+            {
+                roomNumber = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid room number.");
+                return;
+            }
+
+            foreach (Room room in rooms)
+            {
+                if (room.roomNumber == roomNumber)
+                {
+                    Console.WriteLine("Room number already exists!");
+                    return;
+                }
+            }
+            Console.Write("Enter room type (Single/Double/Suite): ");
+            string roomType = Console.ReadLine();
+
+            if (roomType != "Single" && roomType != "Double" && roomType != "Suite")
+            {
+                Console.WriteLine("Invalid room type!");
+                return;
+            }
+
+            Console.Write("Enter price per night: ");
+
+            double price;
+
+            try
+            {
+                price = Convert.ToDouble(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid price!");
+                return;
+            }
+
+            if (price <= 0)
+            {
+                Console.WriteLine("Price must be greater than zero");
+                return;
+            }
+
+            rooms.Add(new Room(roomNumber, roomType, price, true));
+
+            Console.WriteLine("Room added successfully!");
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        
+        
+        
+        
+        
+        
+        
         
     }
 }

@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystemApp", "Banking
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Part 1", "OOP Part 1\OOP Part 1.csproj", "{06616DD2-9AC0-4B01-9051-475630509383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Part 2", "OOP Part 2\OOP Part 2.csproj", "{4925F320-143D-4C57-A193-E13E6D808878}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagementSystem", "HotelManagementSystem\HotelManagementSystem.csproj", "{4925F320-143D-4C57-A193-E13E6D808878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

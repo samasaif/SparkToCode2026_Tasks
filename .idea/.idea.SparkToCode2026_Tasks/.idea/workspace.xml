@@ -22,7 +22,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/OOP Part 2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP Part 2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelManagementSystem/HotelManagementSystem.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP Part 2/OOP Part 2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP Part 2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelManagementSystem/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCode2026_Tasks.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,6 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OOP Part 1/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOP Part 2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task3/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task5/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -152,7 +154,7 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/OOP Part 2/OOP Part 2.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HotelManagementSystem/HotelManagementSystem.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -281,30 +283,6 @@
       <workItem from="1783528451502" duration="4041000" />
       <workItem from="1783569461032" duration="9279000" />
       <workItem from="1784064167188" duration="14461000" />
-    </task>
-    <task id="LOCAL-00050" summary="added project files">
-      <option name="closed" value="true" />
-      <created>1783436098052</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1783436098052</updated>
-    </task>
-    <task id="LOCAL-00051" summary="pasted my whole work again - p4">
-      <option name="closed" value="true" />
-      <created>1783436122708</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1783436122708</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added new project files">
-      <option name="closed" value="true" />
-      <created>1783514968758</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1783514968758</updated>
     </task>
     <task id="LOCAL-00053" summary="commit files">
       <option name="closed" value="true" />
@@ -674,7 +652,31 @@
       <option name="project" value="LOCAL" />
       <updated>1784472431553</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Pre-load rooms, and changed the room list to static">
+      <option name="closed" value="true" />
+      <created>1784473070329</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1784473070330</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Main Menu Blueprint">
+      <option name="closed" value="true" />
+      <created>1784473514994</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1784473514994</updated>
+    </task>
+    <task id="LOCAL-00101" summary="switch case">
+      <option name="closed" value="true" />
+      <created>1784473883811</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1784473883811</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,9 +697,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="withdraw and transfer reject 0" />
-    <MESSAGE value="adjusted some comments" />
-    <MESSAGE value="commit untracked files" />
     <MESSAGE value="commit untracked files" />
     <MESSAGE value="add project files" />
     <MESSAGE value="pasted the given code for the main" />
@@ -720,7 +719,10 @@
     <MESSAGE value="created class Room" />
     <MESSAGE value="created class guest" />
     <MESSAGE value="System Lists — declare at the top of Main()" />
-    <option name="LAST_COMMIT_MESSAGE" value="System Lists — declare at the top of Main()" />
+    <MESSAGE value="Pre-load rooms, and changed the room list to static" />
+    <MESSAGE value="Main Menu Blueprint" />
+    <MESSAGE value="switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
