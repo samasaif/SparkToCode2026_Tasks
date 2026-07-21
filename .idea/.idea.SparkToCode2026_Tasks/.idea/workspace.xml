@@ -22,10 +22,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCode2026_Tasks/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f707548-8509-425d-a246-c7203b1d9e2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,14 +279,6 @@
       <workItem from="1783528451502" duration="4041000" />
       <workItem from="1783569461032" duration="9279000" />
       <workItem from="1784064167188" duration="14461000" />
-    </task>
-    <task id="LOCAL-00053" summary="commit files">
-      <option name="closed" value="true" />
-      <created>1783528399348</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1783528399348</updated>
     </task>
     <task id="LOCAL-00054" summary="added project files">
       <option name="closed" value="true" />
@@ -675,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784473883811</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="added Airline Information System ERD">
+      <option name="closed" value="true" />
+      <created>1784664188482</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1784664188482</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="commit untracked files" />
     <MESSAGE value="add project files" />
     <MESSAGE value="pasted the given code for the main" />
     <MESSAGE value="1- class BankAccount" />
@@ -721,7 +717,8 @@
     <MESSAGE value="Pre-load rooms, and changed the room list to static" />
     <MESSAGE value="Main Menu Blueprint" />
     <MESSAGE value="switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch case" />
+    <MESSAGE value="added Airline Information System ERD" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Airline Information System ERD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
