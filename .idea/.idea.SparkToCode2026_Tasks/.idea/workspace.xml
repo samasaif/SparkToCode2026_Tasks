@@ -280,14 +280,6 @@
       <workItem from="1783569461032" duration="9279000" />
       <workItem from="1784064167188" duration="14461000" />
     </task>
-    <task id="LOCAL-00054" summary="added project files">
-      <option name="closed" value="true" />
-      <created>1783538838411</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1783538838411</updated>
-    </task>
     <task id="LOCAL-00055" summary="Task 1 - p5">
       <option name="closed" value="true" />
       <created>1783539861025</created>
@@ -672,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784664188482</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="College Management System – Requirement ERD">
+      <option name="closed" value="true" />
+      <created>1784668053803</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1784668053803</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add project files" />
     <MESSAGE value="pasted the given code for the main" />
     <MESSAGE value="1- class BankAccount" />
     <MESSAGE value="2- class Student" />
@@ -718,7 +717,8 @@
     <MESSAGE value="Main Menu Blueprint" />
     <MESSAGE value="switch case" />
     <MESSAGE value="added Airline Information System ERD" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Airline Information System ERD" />
+    <MESSAGE value="College Management System – Requirement ERD" />
+    <option name="LAST_COMMIT_MESSAGE" value="College Management System – Requirement ERD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
